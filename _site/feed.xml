@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-23T22:45:09+09:00</updated><id>http://localhost:4000//</id><title type="html">Jade Yeom</title><subtitle>Front-End Developer from EcubeLabs</subtitle><entry><title type="html">생일기념 Jade의 1년간의 회고</title><link href="http://localhost:4000/2016birthday/" rel="alternate" type="text/html" title="생일기념 Jade의 1년간의 회고" /><published>2016-11-21T00:00:00+09:00</published><updated>2016-11-21T00:00:00+09:00</updated><id>http://localhost:4000/2016birthday</id><content type="html" xml:base="http://localhost:4000/2016birthday/">&lt;p&gt;1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.&lt;br /&gt;
+생일을 맞이한 기념으로 최근 1년간의 근황과 회고를 작성하는 시간을 가져보려고 해요.&lt;/p&gt;
+
+&lt;p&gt;(본 문서는 이번주 안에 완성될 계획)&lt;/p&gt;
+
+&lt;p&gt;##회사생활을 시작하다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/HxtfXEg.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;###개요&lt;/p&gt;
+
+&lt;p&gt;올해 3월 쯤 &lt;strong&gt;이큐브랩(EcubeLabs)&lt;/strong&gt;의 소프트웨어 개발부서의 프론트엔드 개발자로 입사하게 되었습니다.&lt;br /&gt;
+아직 고등학교 2학년 신분이지만, 주 4회 원격근무, 1회 출근의 업무형태로 재직중에 있어요.&lt;/p&gt;
+
+&lt;p&gt;사실 이 회사에 지원한것은 프론트엔드 개발자로 지원한것이 아닌, 안드로이드 클라이언트 개발자로 지원했었습니다만, 자리가 없고 제가 포트폴리오로 제출했었던 웹 공부 자료와 프로젝트를 보시고는 웹 프론트엔드 개발자로 발탁(?)되었습니다.&lt;/p&gt;
+
+&lt;p&gt;###하는 일&lt;/p&gt;
+
+&lt;p&gt;3월부터 7월 말까지는 &lt;code class=&quot;highlighter-rouge&quot;&gt;시크릿차트&lt;/code&gt;라는 뷰티소셜커머스 서비스를 유지보수 하는 일을 맡았었으며, &lt;code class=&quot;highlighter-rouge&quot;&gt;CodeIgniter(PHP5)&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt; 를 사용하여 개발했었습니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 8월 초 부터 지금까지 &lt;code class=&quot;highlighter-rouge&quot;&gt;시크릿차트&lt;/code&gt; 프로젝트 리뉴얼 버전의 웹 애플리케이션을 새로 개발하는데 전담했으며, &lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel(PHP7)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript(ES6)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML5&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;SASS&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Webpack(예정)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Babel(예정)&lt;/code&gt; 등을 사용하여 서비스를 개발하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;###시놉시스&lt;/p&gt;
+
+&lt;p&gt;제 닉네임인 Jade가 지어진것도 이큐브랩의 사내 문화로부터 지어진 것입니다. (모든 직원이 직급, 존칭 없이 닉네임으로 부르는 사내 문화) 생각보다 좋다고 생각해요.&lt;/p&gt;
+
+&lt;p&gt;##웹 개발에 뛰어들다
+&lt;img src=&quot;http://i.imgur.com/Td0mfoz.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;###개요&lt;/p&gt;
+
+&lt;p&gt;아무래도 회사에 입사 후 작업량의 대부분을 회사업무가 차지하게 되어서 제가 주로 다루는 언어는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Java&lt;/code&gt;에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;, 그리고 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;로 바뀌어 버렸어요. 자바 개발자에서 웹 프론트엔드 개발자로 한순간에 바뀌는 순간입니다.&lt;/p&gt;
+
+&lt;p&gt;###배우다
+처음에는 나름 새로웠지만, 기존에 남겨진 레거시코드와 언어의 러닝커브때문에 쉽진 않았습니다. 기존에 쓰던 &lt;code class=&quot;highlighter-rouge&quot;&gt;Java&lt;/code&gt;와 비슷한 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;같은 경우에는 입문이 쉬웠지만, 괴랄한 문법과 기존에 남겨진 &lt;strong&gt;&lt;em&gt;(엄청난)&lt;/em&gt;&lt;/strong&gt;레거시 코드는 저의 경악을 멈출 수 없게 만들었죠. &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;는 그냥 퓨어자바스크립트만 배우고 가서 그런지, DOM을 사용하는 자바스크립트를 이해하는데에는 조금 어려웠지만, 나름 빠르게 배울 수 있었어요.&lt;/p&gt;
+
+&lt;p&gt;###더 많이&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;자고 일어나면 매일같이 새로운 제품이나 신기술이 탄생한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;위의 인용글처럼 웹 기술은 정말 빠르게 발전하고 있어요. 예를들어, 이제 DOM을 제어하는 부분도 이제 jQuery만의 역할이 아니게 됬습니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Angular.js&lt;/code&gt;와 &lt;code class=&quot;highlighter-rouge&quot;&gt;React.js&lt;/code&gt; 처럼 체계적인 패턴을 가지고 나온 프레임워크들도 많이 나왔죠. 프론트엔드 자바스크립트를 모듈화 시켜주는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Webpack.js&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Browserify&lt;/code&gt; 등의 기술 등 이런 신기술이 나올때까지 단 3년도 채 안됬다는게 믿기지 않네요. 이만큼 웹은 엄청난 속도로 발전하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;아직 웹 프로그래밍을 접한지 1년도 채 안되어 부족하지만 위 신기술들을 사용해보기 위해서 더 많이 배우고 싶어요. 일단 얼떨결에 웹 프론트엔드 개발을 접하게 되었지만, 이제 막 재미를 느끼고 흥미를 가지게 되었거든요.&lt;/p&gt;
+
+&lt;p&gt;##초심을 잃었(었)다.&lt;/p&gt;
+
+&lt;p&gt;회사 업무가 바빠질때 쯔음 제가 초심을 잃었다는 생각이 들었어요.&lt;/p&gt;
+
+&lt;p&gt;##맥북을 장만하다&lt;/p&gt;
+
+&lt;p&gt;##하고싶은게 더 늘었다&lt;/p&gt;
+
+&lt;p&gt;###디자인
+###음악
+###프로그래밍&lt;/p&gt;
+
+&lt;p&gt;##나는 생각보다 끝 없이 부족하다&lt;/p&gt;</content><summary type="html">1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.
+생일을 맞이한 기념으로 최근 1년간의 근황과 회고를 작성하는 시간을 가져보려고 해요.</summary></entry><entry><title type="html">Jekyll을 사용하여 블로그를 만들었다.</title><link href="http://localhost:4000/started-github-blog/" rel="alternate" type="text/html" title="Jekyll을 사용하여 블로그를 만들었다." /><published>2016-11-15T00:00:00+09:00</published><updated>2016-11-15T00:00:00+09:00</updated><id>http://localhost:4000/started-github-blog</id><content type="html" xml:base="http://localhost:4000/started-github-blog/">&lt;p&gt;&lt;img src=&quot;http://hbn-blog-assets.s3.amazonaws.com/saltfactory/images/84755ce7-0464-4833-9cc5-2b4a922bf8e9&quot; style=&quot;width:100%&quot; /&gt;
+&lt;strong&gt;GitHub&lt;/strong&gt;에서 제공하는 정적 페이지 기능을 활용하여 블로그를 개설해 보았다.&lt;br /&gt;&lt;br /&gt;
+서버사이드 언어를 제외한 JavaScript, HTML, CSS 등 정말 정적페이지를 위한 기능인데, Jekyll을 사용하면 간단하게 블로그를 만들 수 있다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[자신의 유저네임].github.io&lt;/code&gt; 레포지토리를 생성하면 자동으로 페이지가 생성된다.&lt;br /&gt;
+앞으로 지킬에 쓰일 테마도 직접 만들고 포스트도 마크다운 문서를 작성해서 만들어갈 예정이다.&lt;/p&gt;</content><summary type="html">GitHub에서 제공하는 정적 페이지 기능을 활용하여 블로그를 개설해 보았다.
+서버사이드 언어를 제외한 JavaScript, HTML, CSS 등 정말 정적페이지를 위한 기능인데, Jekyll을 사용하면 간단하게 블로그를 만들 수 있다.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-11-08T08:38:31+09:00</published><updated>2016-11-08T08:38:31+09:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
