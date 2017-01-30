@@ -1,13 +1,8 @@
----
----
 
-//
-// IMPORTS
-//
+@import "_sass/partials/header";
+@import "_sass/partials/footer";
+@import "_sass/utils/variables";
+@import "_sass/utils/reset";
+@import "_sass/pages/post";
+@import "_sass/base/theme";
 
-@import "partials/header";
-@import "partials/footer";
-@import "utils/variables";
-@import "utils/reset";
-@import "pages/post";
-@import "base/theme";
