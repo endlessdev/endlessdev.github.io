@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+.header-nav-wrapper .ui.stackable.menu {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  background-repeat: no-repeat;
+  border-radius: 0; }
+  .header-nav-wrapper .ui.stackable.menu .item.brand img.brand-image {
+    width: 140px !important; }
+.header-nav-wrapper .nav-bg {
+  background-image: url("/images/bg.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: bottom; }
+  .header-nav-wrapper .nav-bg .title {
+    position: relative;
+    top: 365px;
+    text-align: center; }
+    .header-nav-wrapper .nav-bg .title .content {
+      font-weight: 100;
+      font-family: 'Nanum Myeongjo', serif;
+      font-size: 45px;
+      letter-spacing: -4px; }
+    .header-nav-wrapper .nav-bg .title .description {
+      font-family: 'Nanum Myeongjo', serif; }
+
+footer {
+  margin-top: 15px; }
+  footer .footer-wrapper {
+    text-align: center; }
+    footer .footer-wrapper .footer-logo {
+      width: 50px;
+      display: block;
+      margin: auto; }
+
+.ui.container {
+  margin-top: 10px; }
+.ui.primary.button {
+  background-color: #ed145b; }
+  .ui.primary.button:hover {
+    background-color: #C2185B; }
+.ui.inverted.primary.button {
+  border: 2px solid #ed145b;
+  background-color: white;
+  color: #ed145b; }
+  .ui.inverted.primary.button:hover {
+    background-color: #FCE4EC; }
+
+body {
+  font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Noto Sans KR", "Nanum Barun Gothic", "Nanum Gothic";
+  letter-spacing: -1px; }
+
+.posts .post {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 15px; }
+  .posts .post > h1 > a {
+    color: black;
+    font-weight: 100;
+    font-size: 25px; }
+  .posts .post img {
+    width: calc(100% + 28px) !important;
+    margin-left: -14px; }
+  .posts .post .content .header {
+    font-weight: 100 !important;
+    font-size: 25px !important; }
+  .posts .post:last-child {
+    border: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll을 사용하여 블로그를 만들었다.
+thumbnail: http://hbn-blog-assets.s3.amazonaws.com/saltfactory/images/84755ce7-0464-4833-9cc5-2b4a922bf8e9
 ---
 
 

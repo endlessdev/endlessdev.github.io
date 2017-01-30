@@ -1,5 +1,5 @@
 /*
-Error: Invalid CSS after "@import "reset"": expected "{", was ";"
+Error: Invalid CSS after "...artials/header"": expected "{", was ";"
         on line 8 of style.scss
 
 3: 
@@ -7,12 +7,12 @@ Error: Invalid CSS after "@import "reset"": expected "{", was ";"
 5: // IMPORTS
 6: //
 7: 
-8: @import "reset";
-9: @import "variables";
-10: // Syntax highlighting @import is at the bottom of this file
-11: 
-12: /**************\/
-13: /* BASE RULES *\/
+8: @import "partials/header";
+9: @import "partials/footer";
+10: @import "utils/variables";
+11: @import "utils/reset";
+12: @import "pages/post";
+13: @import "base/theme";
 
 Backtrace:
 style.scss:8
@@ -44,4 +44,4 @@ style.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@import \"reset\"\": expected \"{\", was \";\"\A         on line 8 of style.scss\A \A 3: \A 4: //\A 5: // IMPORTS\A 6: //\A 7: \A 8: @import \"reset\";\A 9: @import \"variables\";\A 10: // Syntax highlighting @import is at the bottom of this file\A 11: \A 12: /**************/\A 13: /* BASE RULES */"; }
+  content: "Error: Invalid CSS after \"...artials/header\"\": expected \"{\", was \";\"\A         on line 8 of style.scss\A \A 3: \A 4: //\A 5: // IMPORTS\A 6: //\A 7: \A 8: @import \"partials/header\";\A 9: @import \"partials/footer\";\A 10: @import \"utils/variables\";\A 11: @import \"utils/reset\";\A 12: @import \"pages/post\";\A 13: @import \"base/theme\";"; }

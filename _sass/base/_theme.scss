@@ -1,0 +1,28 @@
+body {
+  font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Noto Sans KR", "Nanum Barun Gothic", "Nanum Gothic";
+  letter-spacing: -1px;
+}
+
+.posts {
+  & .post {
+    & > h1 > a {
+      color: black;
+      font-weight: 100;
+      font-size: 25px;
+    }
+    img{
+      width: calc(100% + 28px) !important;
+      margin-left: -14px;
+    }
+    .content .header{
+      font-weight: 100 !important;
+      font-size: 25px !important;
+    }
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    &:last-child{
+      border: none;
+    }
+  }
+}

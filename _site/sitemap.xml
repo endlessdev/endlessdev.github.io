@@ -21,4 +21,8 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/images/bg.htm</loc>
+<lastmod>2017-01-21T16:01:41+09:00</lastmod>
+</url>
 </urlset>

@@ -1,18 +1,30 @@
 ---
 layout: default
 ---
-
-<div class="posts">
+<div class="ui one column doubling stackable grid ui cards posts">
   {% for post in site.posts %}
-    <article class="post">
+  <div class="column">
+    <div class="ui card fluid post">
+      <!--{% if page.thumbnail %}-->
+      <!--<div class="image">-->
+        <!--<img src="{{page.thumbnail}}">-->
+      <!--</div>-->
+      <!--{% endif %}-->
+      <div class="content">
+        <a class="header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <div class="meta">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+        </div>
+        <div class="description">
+          {{ post.excerpt }}
+        </div>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+      <div class="extra content">
+        <a>
+          <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
   {% endfor %}
 </div>

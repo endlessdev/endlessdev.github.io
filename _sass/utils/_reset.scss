@@ -1,0 +1,19 @@
+.ui {
+  &.container {
+    margin-top: 10px;
+  }
+  &.primary.button {
+    background-color: $primary-color;
+    &:hover {
+      background-color: $primary-darker-color;
+    }
+  }
+  &.inverted.primary.button {
+    border: 2px solid $primary-color;
+    background-color: white;
+    color: #ed145b;
+    &:hover {
+      background-color: $primary-white-color;
+    }
+  }
+}
