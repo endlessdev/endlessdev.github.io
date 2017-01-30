@@ -1,95 +1,47 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-.header-nav-wrapper .ui.stackable.menu {
-  background-color: rgba(255, 255, 255, 0.9);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: none;
-  background-repeat: no-repeat;
-  border-radius: 0;
-}
-.header-nav-wrapper .ui.stackable.menu .item.brand img.brand-image {
-  width: 140px !important;
-}
-.header-nav-wrapper .nav-bg {
-  background-image: url("/images/bg.jpg");
-  width: 100%;
-  height: 500px;
-  background-size: cover;
-  background-position: bottom;
-}
-.header-nav-wrapper .nav-bg .title {
-  position: relative;
-  top: 365px;
-  text-align: center;
-}
-.header-nav-wrapper .nav-bg .title .content {
-  font-weight: 100;
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 45px;
-  letter-spacing: -4px;
-}
-.header-nav-wrapper .nav-bg .title .description {
-  font-family: 'Nanum Myeongjo', serif;
-}
+/*
+Error: Invalid CSS after "...artials/header"": expected "{", was ";"
+        on line 8 of style.scss
 
-footer {
-  margin-top: 15px;
-}
-footer .footer-wrapper {
-  text-align: center;
-}
-footer .footer-wrapper .footer-logo {
-  width: 50px;
-  display: block;
-  margin: auto;
-}
+3: 
+4: //
+5: // IMPORTS
+6: //
+7: 
+8: @import "partials/header";
+9: @import "partials/footer";
+10: @import "utils/variables";
+11: @import "utils/reset";
+12: @import "pages/post";
+13: @import "base/theme";
 
-.ui.container {
-  margin-top: 10px;
-}
-.ui.primary.button {
-  background-color: #ed145b;
-}
-.ui.primary.button:hover {
-  background-color: #C2185B;
-}
-.ui.inverted.primary.button {
-  border: 2px solid #ed145b;
-  background-color: white;
-  color: #ed145b;
-}
-.ui.inverted.primary.button:hover {
-  background-color: #FCE4EC;
-}
-
-.post {
-  border: 1px solid #e0e0e0;
-  border-radius: 3px;
-  padding: 20px;
-}
-
-body {
-  font-family: "Helvetica Neue", "Apple SD Gothic Neo", "Noto Sans KR", "Nanum Barun Gothic", "Nanum Gothic";
-  letter-spacing: -1px;
-}
-
-.posts .post {
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-}
-.posts .post > h1 > a {
-  color: black;
-  font-weight: 100;
-  font-size: 25px;
-}
-.posts .post img {
-  width: calc(100% + 28px) !important;
-  margin-left: -14px;
-}
-.posts .post .content .header {
-  font-weight: 100 !important;
-  font-size: 25px !important;
-}
-.posts .post:last-child {
-  border: none;
-}
+Backtrace:
+style.scss:8
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...artials/header\"\": expected \"{\", was \";\"\A         on line 8 of style.scss\A \A 3: \A 4: //\A 5: // IMPORTS\A 6: //\A 7: \A 8: @import \"partials/header\";\A 9: @import \"partials/footer\";\A 10: @import \"utils/variables\";\A 11: @import \"utils/reset\";\A 12: @import \"pages/post\";\A 13: @import \"base/theme\";"; }
