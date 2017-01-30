@@ -4,13 +4,13 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
+  <div class="extra">
+    <span class="item date"><i class="calendar outline icon"></i>{{ page.date | date: "%B %e, %Y" }}</span>
+    <span class="item category"><i class="archive icon"></i>{{page.category}}</span>
+  </div>
+  <div class="ui divider"></div>
   <div class="entry">
     {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
   {% include disqus.html %}

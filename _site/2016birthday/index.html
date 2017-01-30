@@ -35,6 +35,10 @@
 
     <!--TODO Styling theme using through Semantic UI -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -56,6 +60,15 @@
             <a class="item">포스트</a>
             <a class="item">포트폴리오</a>
             <a class="item">방명록</a>
+            <div class="ui dropdown right item">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a class="item"><i class="edit icon"></i> Edit Profile</a>
+                    <a class="item"><i class="globe icon"></i> Choose Language</a>
+                    <a class="item"><i class="settings icon"></i> Account Settings</a>
+                </div>
+            </div>
         </nav>
         <div class="nav-bg">
             <div class="title-wrapper">
@@ -77,7 +90,11 @@
         <div class="twelve wide column">
             <article class="post">
   <h1>생일기념 Jade의 1년간의 회고</h1>
-
+  <div class="extra">
+    <span class="item date"><i class="calendar outline icon"></i>November 21, 2016</span>
+    <span class="item category"><i class="archive icon"></i>retrospect</span>
+  </div>
+  <div class="ui divider"></div>
   <div class="entry">
     <p>1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.<br />
 생일을 맞이한 기념으로 최근 1년간의 근황과 회고를 작성하는 시간을 가져보려고 해요.</p>
@@ -138,10 +155,6 @@
 
 <p>##나는 생각보다 끝 없이 부족하다</p>
 
-  </div>
-
-  <div class="date">
-    Written on November 21, 2016
   </div>
 
   

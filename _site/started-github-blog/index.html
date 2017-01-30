@@ -37,6 +37,10 @@ GitHub에서 제공하는 정적 페이지 기능을 활용하여 블로그를 �
 
     <!--TODO Styling theme using through Semantic UI -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -58,6 +62,15 @@ GitHub에서 제공하는 정적 페이지 기능을 활용하여 블로그를 �
             <a class="item">포스트</a>
             <a class="item">포트폴리오</a>
             <a class="item">방명록</a>
+            <div class="ui dropdown right item">
+                More
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a class="item"><i class="edit icon"></i> Edit Profile</a>
+                    <a class="item"><i class="globe icon"></i> Choose Language</a>
+                    <a class="item"><i class="settings icon"></i> Account Settings</a>
+                </div>
+            </div>
         </nav>
         <div class="nav-bg">
             <div class="title-wrapper">
@@ -79,7 +92,11 @@ GitHub에서 제공하는 정적 페이지 기능을 활용하여 블로그를 �
         <div class="twelve wide column">
             <article class="post">
   <h1>Jekyll을 사용하여 블로그를 만들었다.</h1>
-
+  <div class="extra">
+    <span class="item date"><i class="calendar outline icon"></i>November 15, 2016</span>
+    <span class="item category"><i class="archive icon"></i></span>
+  </div>
+  <div class="ui divider"></div>
   <div class="entry">
     <p><img src="http://hbn-blog-assets.s3.amazonaws.com/saltfactory/images/84755ce7-0464-4833-9cc5-2b4a922bf8e9" style="width:100%" />
 <strong>GitHub</strong>에서 제공하는 정적 페이지 기능을 활용하여 블로그를 개설해 보았다.<br /><br />
@@ -88,10 +105,6 @@ GitHub에서 제공하는 정적 페이지 기능을 활용하여 블로그를 �
 <p><code class="highlighter-rouge">[자신의 유저네임].github.io</code> 레포지토리를 생성하면 자동으로 페이지가 생성된다.<br />
 앞으로 지킬에 쓰일 테마도 직접 만들고 포스트도 마크다운 문서를 작성해서 만들어갈 예정이다.</p>
 
-  </div>
-
-  <div class="date">
-    Written on November 15, 2016
   </div>
 
   
