@@ -10,18 +10,17 @@ body {
       font-weight: 100;
       font-size: 25px;
     }
-    img{
-      width: calc(100% + 28px) !important;
-      margin-left: -14px;
+    .description img {
+      display: none !important;
     }
-    .content .header{
+    .content .header {
       font-weight: 100 !important;
       font-size: 25px !important;
     }
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 20px;
     margin-bottom: 15px;
-    &:last-child{
+    &:last-child {
       border: none;
     }
   }

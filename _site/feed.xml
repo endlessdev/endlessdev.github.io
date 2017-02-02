@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-01-30T23:26:05+09:00</updated><id>//</id><title type="html">Jade Yeom</title><subtitle>Front-End Developer from EcubeLabs</subtitle><entry><title type="html">생일기념 Jade의 1년간의 회고</title><link href="/2016birthday/" rel="alternate" type="text/html" title="생일기념 Jade의 1년간의 회고" /><published>2016-11-21T00:00:00+09:00</published><updated>2016-11-21T00:00:00+09:00</updated><id>/2016birthday</id><content type="html" xml:base="/2016birthday/">&lt;p&gt;1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-02T15:26:43+09:00</updated><id>http://localhost:4000//</id><title type="html">Jade Yeom</title><subtitle>Front-End Developer from EcubeLabs</subtitle><entry><title type="html">생일기념 Jade의 1년간의 회고</title><link href="http://localhost:4000/2016birthday/" rel="alternate" type="text/html" title="생일기념 Jade의 1년간의 회고" /><published>2016-11-21T00:00:00+09:00</published><updated>2016-11-21T00:00:00+09:00</updated><id>http://localhost:4000/2016birthday</id><content type="html" xml:base="http://localhost:4000/2016birthday/">&lt;p&gt;1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.&lt;br /&gt;
 생일을 맞이한 기념으로 최근 1년간의 근황과 회고를 작성하는 시간을 가져보려고 해요.&lt;/p&gt;
 
 &lt;p&gt;(본 문서는 이번주 안에 완성될 계획)&lt;/p&gt;
 
-&lt;p&gt;##회사생활을 시작하다&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;회사생활을 시작하다&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/HxtfXEg.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;###개요&lt;/p&gt;
+&lt;p&gt;###개요###&lt;/p&gt;
 
 &lt;p&gt;올해 3월 쯤 &lt;strong&gt;이큐브랩(EcubeLabs)&lt;/strong&gt;의 소프트웨어 개발부서의 프론트엔드 개발자로 입사하게 되었습니다.&lt;br /&gt;
 아직 고등학교 2학년 신분이지만, 주 4회 원격근무, 1회 출근의 업무형태로 재직중에 있어요.&lt;/p&gt;
@@ -43,35 +43,913 @@
 
 &lt;p&gt;아직 웹 프로그래밍을 접한지 1년도 채 안되어 부족하지만 위 신기술들을 사용해보기 위해서 더 많이 배우고 싶어요. 일단 얼떨결에 웹 프론트엔드 개발을 접하게 되었지만, 이제 막 재미를 느끼고 흥미를 가지게 되었거든요.&lt;/p&gt;
 
-&lt;p&gt;##초심을 잃었(었)다.&lt;/p&gt;
+&lt;!--
+##초심을 잃었(었)다.
 
-&lt;p&gt;회사 업무가 바빠질때 쯔음 제가 초심을 잃었다는 생각이 들었어요.&lt;/p&gt;
+회사 업무가 바빠질때 쯔음 제가 초심을 잃었다는 생각이 들었어요. 
 
-&lt;p&gt;##맥북을 장만하다&lt;/p&gt;
+##맥북을 장만하다
 
-&lt;p&gt;##하고싶은게 더 늘었다&lt;/p&gt;
+##하고싶은게 더 늘었다
 
-&lt;p&gt;###디자인
+###디자인
 ###음악
-###프로그래밍&lt;/p&gt;
+###프로그래밍
 
-&lt;p&gt;##나는 생각보다 끝 없이 부족하다&lt;/p&gt;</content><summary type="html">1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.
-생일을 맞이한 기념으로 최근 1년간의 근황과 회고를 작성하는 시간을 가져보려고 해요.</summary></entry><entry><title type="html">Jekyll을 사용하여 블로그를 만들었다.</title><link href="/started-github-blog/" rel="alternate" type="text/html" title="Jekyll을 사용하여 블로그를 만들었다." /><published>2016-11-15T00:00:00+09:00</published><updated>2016-11-15T00:00:00+09:00</updated><id>/started-github-blog</id><content type="html" xml:base="/started-github-blog/">&lt;p&gt;&lt;img src=&quot;http://hbn-blog-assets.s3.amazonaws.com/saltfactory/images/84755ce7-0464-4833-9cc5-2b4a922bf8e9&quot; style=&quot;width:100%&quot; /&gt;
+
+##나는 생각보다 끝 없이 부족하다
+--&gt;</content><category term="retrospect" /><summary type="html">1999년 11월 21일, 제가 태어난지 어느 덧 17년이 지났습니다.
+생일을 맞이한 기념으로 최근 1년간의 근황과 회고를 작성하는 시간을 가져보려고 해요.</summary></entry><entry><title type="html">Jekyll을 사용하여 블로그를 만들었다.</title><link href="http://localhost:4000/started-github-blog/" rel="alternate" type="text/html" title="Jekyll을 사용하여 블로그를 만들었다." /><published>2016-11-15T00:00:00+09:00</published><updated>2016-11-15T00:00:00+09:00</updated><id>http://localhost:4000/started-github-blog</id><content type="html" xml:base="http://localhost:4000/started-github-blog/">&lt;p&gt;&lt;img src=&quot;http://hbn-blog-assets.s3.amazonaws.com/saltfactory/images/84755ce7-0464-4833-9cc5-2b4a922bf8e9&quot; style=&quot;width:100%&quot; /&gt;
 &lt;strong&gt;GitHub&lt;/strong&gt;에서 제공하는 정적 페이지 기능을 활용하여 블로그를 개설해 보았다.&lt;br /&gt;&lt;br /&gt;
 서버사이드 언어를 제외한 JavaScript, HTML, CSS 등 정말 정적페이지를 위한 기능인데, Jekyll을 사용하면 간단하게 블로그를 만들 수 있다.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[자신의 유저네임].github.io&lt;/code&gt; 레포지토리를 생성하면 자동으로 페이지가 생성된다.&lt;br /&gt;
 앞으로 지킬에 쓰일 테마도 직접 만들고 포스트도 마크다운 문서를 작성해서 만들어갈 예정이다.&lt;/p&gt;</content><summary type="html">GitHub에서 제공하는 정적 페이지 기능을 활용하여 블로그를 개설해 보았다.
-서버사이드 언어를 제외한 JavaScript, HTML, CSS 등 정말 정적페이지를 위한 기능인데, Jekyll을 사용하면 간단하게 블로그를 만들 수 있다.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2016-11-08T08:38:31+09:00</published><updated>2016-11-08T08:38:31+09:00</updated><id>/welcome-to-jekyll</id><content type="html" xml:base="/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+서버사이드 언어를 제외한 JavaScript, HTML, CSS 등 정말 정적페이지를 위한 기능인데, Jekyll을 사용하면 간단하게 블로그를 만들 수 있다.</summary></entry><entry><title type="html">우리 서비스에 맞는 프레임워크는 무엇이란 말인가.</title><link href="http://localhost:4000/What_is_framework_benefit_our_services/" rel="alternate" type="text/html" title="우리 서비스에 맞는 프레임워크는 무엇이란 말인가." /><published>2016-11-08T08:38:31+09:00</published><updated>2016-11-08T08:38:31+09:00</updated><id>http://localhost:4000/What_is_framework_benefit_our_services</id><content type="html" xml:base="http://localhost:4000/What_is_framework_benefit_our_services/">&lt;p&gt;#우리 서비스에 맞는 프레임워크는 무엇이란 말인가.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;시크릿차트에 쓰일 프레임워크에 대해 정말 끝을 보려는 문서다.&lt;br /&gt;
+근 일주일동안 기술스택에 관해서 논해왔지만 결국 목적은 아래와 같다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;결국 우리 서비스에 맞는 프레임워크는 무엇인가?&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;##Author&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;시크릿차트 개발팀 Jade(염승우)&lt;/strong&gt;&lt;br /&gt;
+질문사항 있으시면 언제든지  연락주세요.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;##웹 프레임워크의 선택
+&lt;img src=&quot;/Users/Jade/Desktop/Screen\ Shot\ 2016-07-13\ at\ 5.34.34\ PM.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;보통 프레임워크를 크게 구분할 때 &lt;strong&gt;풀스택 프레임워크&lt;/strong&gt;와 &lt;strong&gt;마이크로 프레임워크&lt;/strong&gt; 크게 두가지로 나눌 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;풀스택 프레임워크&lt;/strong&gt;는 주로 한 프레임워크에서 모든 분야를 다 섬렵하는 프레임워크이다. 이 말은, 통신에서 데이터베이스까지, 그리고 URL 처리에서 웹페이지 템플릿 작업까지의 모든것을 망라한 기능을 갖추고 있다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;유명한 풀스택 프레임워크는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;CodeIgniter&lt;/code&gt; 등이 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;마이크로 프레임워크&lt;/strong&gt;는 경량 프레임워크라고도 많이 알려져있다. 작고 가벼움을 강조하며 필수요소만 제공한다는 특징을 가지고 있으며, 여러 라이브러리와 플러그인이 함꼐 사용되야 하는 경우가 많아서 학습커브가 높기때문에, 숙련자들에게 추천된다.&lt;/p&gt;
+
+&lt;p&gt;유명한 마이크로 프레임워크는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Lumen&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;koa.js&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Flask&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Hapi.js&lt;/code&gt; 등이 있다.&lt;/p&gt;
+
+&lt;p&gt;###그럼 각각의 프레임워크는 언제 사용할까?&lt;/p&gt;
+
+&lt;p&gt;다음은 &lt;strong&gt;&lt;a href=&quot;http://dolgo.net/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/questions/57&quot;&gt;프레임워크 종류 문의 (돌고)&lt;/a&gt;&lt;/strong&gt; 질문글의 채택글이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;소규모 프로젝트에서 신속하게 어떤 기능을 필요로 하는 경우 Micro Framework의 사용이 최선의 선택일 수 있습니다. Full Stack Framework만큼 우리가 필요로하는 모든 기능을 갖추고 있지는 않지만 필요에 따라 기능을 추가할 수 있는 유연성과 Full Stack Framework에 비해 빠르기 때문입니다. 대규모 프로젝트이고 많은 요구사항이 있다면 Full Stack Framework을 사용하면 됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;확실히 맞는 말이다. 프로젝트 규모에 따라서 풀스택 프레임워크를 쓰느냐, 마이크로 프레임워크를 쓰느냐가 결정될 수도있다. 하지만 기술 스택 구조측면에서 백단에 REST API로 마이크로 프레임워크를 사용하고, 앞단에 프론트엔드 프레임워크를 사용하는게 조금 더 구조적이라고 판단되어 사용되는 경우도 있다.&lt;/p&gt;
+
+&lt;p&gt;##풀 스택 프레임워크&lt;/p&gt;
+
+&lt;p&gt;풀 스택 프레임워크는 위에서 언급됬듯이 모든것을 갖추고 있는 프레임워크다. 데이터베이스 I/O를 통해 REST API를 제공해주고, 모델을 통해 웹 페이지 단에서도 직접적으로 DB접근과 IO가 가능하는 등 모든 것을 한번에 개발할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;###장점&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;프레임워크 내에서 거의 모든 작업을 처리할 수 있다.
+    &lt;ul&gt;
+      &lt;li&gt;마이크로 프레임워크에 없는 것들이 다 있다.&lt;/li&gt;
+      &lt;li&gt;모든 내장 모듈이나 라이브러리들이 강력해서 서드파티에 의존할 필요가 없다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;규모가 큰 프로젝트에 적합하다.
+    &lt;ul&gt;
+      &lt;li&gt;위에서 언급했었듯, 모든걸 다 갖추고 있어 따로 신경쓸게 없다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###단점&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;소규모 프로젝트에 맞지 않다.
+    &lt;ul&gt;
+      &lt;li&gt;자잘한 프로젝트라면 풀스택보다는 마이크로 프레임워크만을 써도 충분하다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###주변 활용 사례&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;기존의 &lt;strong&gt;Django VS Laravel&lt;/strong&gt; 의 활용사례 참고.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##마이크로 프레임워크 + 프론트엔드 프레임워크&lt;/p&gt;
+
+&lt;p&gt;마이크로 프레임워크는 보통 REST API 애플리케이션을 따로 두고 프론트엔드 프레임워크에서 API를 요청받아 뿌려주는 식이다. 이렇게 설계하면 각종 클라이언트(웹, 모바일 애플리케이션)에서는 REST API 하나에 모든 처리를 부담할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;###주변 활용 사례&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CCN (Clean City Networks)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Node.js + Express.js + Angular.js&lt;/li&gt;
+      &lt;li&gt;데이터 업데이트가 많은 동적인 페이지에 효율적이라서 사용한다고 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###장점&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;언급했듯 데이터 업데이트가 많은 동적인 페이지에 정말 효율적이다.&lt;/li&gt;
+  &lt;li&gt;모든 처리를 REST API에서 부담하게 하므로, 별도로 웹을위한 모델을 작성하거나 할 필요가 없다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###단점&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;정적인 페이지엔 부담만 줘서 쓸모가 없다.
+    &lt;ul&gt;
+      &lt;li&gt;정적인 페이지인데, Angular.js 같은 프론트엔드 프레임워크를 쓴다고 해서 좋은점은 없다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;두 프레임워크를 따로따로 다뤄야 하기 때문에  유지보수 할 때 조금 불편하다는 점이 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##결론&lt;/p&gt;
+
+&lt;p&gt;프로젝트가 크거나 대부분 정적인 페이지로 이루어져 있다면 &lt;strong&gt;풀스택 프레임워크&lt;/strong&gt;를 고려해보는게 좋을 것 같다.&lt;br /&gt;
+반대로 프로젝트 규모가 작거나 대부분이 동적인 페이지로 이루어져 있다면 &lt;strong&gt;마이크로 프레임워크&lt;/strong&gt;와 &lt;strong&gt;프론트 프레임워크&lt;/strong&gt;를 함께 사용하여 개발하면 좋을 듯 하다.&lt;/p&gt;
+
+&lt;p&gt;시크릿차트는 아직 기획이 정확히 나오지 않아서 확실하게 말할 순 없지만, 데이터의 업데이트가 많은 동적인 페이지로 이루어질것도 아니거니와 소규모 프로젝트도 아니므로 &lt;strong&gt;풀스택 프레임워크&lt;/strong&gt;로 모든 작업을 처리하는것이 맞는 것 같다.&lt;/p&gt;</content><summary type="html">#우리 서비스에 맞는 프레임워크는 무엇이란 말인가.</summary></entry><entry><title type="html">jQuery 핵심원리</title><link href="http://localhost:4000/ajax_method/" rel="alternate" type="text/html" title="jQuery 핵심원리" /><published>2016-10-11T08:38:31+09:00</published><updated>2016-10-11T08:38:31+09:00</updated><id>http://localhost:4000/ajax_method</id><content type="html" xml:base="http://localhost:4000/ajax_method/">&lt;p&gt;#jQuery $.ajax() 메서드&lt;/p&gt;
+
+&lt;p&gt;본 포스트는 &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jQuery 핵심원리&lt;/code&gt;&lt;/strong&gt; 프로젝트의 문서입니다.&lt;br /&gt;
+작성일 기준 jQuery 최신버전인 3.1.1버전을 기준으로 설명합니다.&lt;/p&gt;
+
+&lt;p&gt;##AJAX란?(MDN 문서 인용)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;AJAX란 비동기 JavaScript와 XML을 말합니다. 간단히 말하면, 서버측 Scripts와 통신하기 위한 XMLHttpRequest객체를 사용하는 것을 말합니다. 서버측으로 다양한 형식(JSON, XML, HTML 및 일반 텍스트 형식 등)의 정보를 주고 받을 수 있습니다. AJAX의 강력한 특징은 페이지 전체를 리프레쉬 하지 않고서도 수행 되는 “비동기성”입니다. 이러한 비동기성을 통해 사용자의 Event가 있으면 전체 페이지가 아닌 일부분만을 업데이트 할 수 있게 해줍니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;위 인용글대로 XMLHttpRequest객체를 사용하여 비동기적으로 서버사이드 API와 통신 할 수 있습니다. &lt;br /&gt;&lt;br /&gt;예를들어 현재 페이지에서 마지막까지 스크롤하여 새로고침 없이 다음 페이지를 보여줄 때 다음 페이지의 정보를 가져오는 API를 호출하고 Response를 가공하여 동적으로 DOM에 뷰를 추가하는 사례를 예로 들 수 있습니다. (페이스북 담벼락, 트위터 타임라인 같은 사례이며, 흔히 EndlessScrolling 라고 부릅니다. 주로 window.onscroll 이벤트 함수로 처리합니다.)&lt;/p&gt;
+
+&lt;p&gt;##$.ajax()
+자바스크립트 비동기 통신인 AJAX(Asynchronous JavaScript and XML)를 쉽게 사용하기 위해 만들어졌습니다.&lt;br /&gt;
+$.ajax() 메서드 역시 XMLHttpRequest 객체를 사용합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;jQuery 소스 중 일부 발췌&lt;/p&gt;
+
+  &lt;p&gt;```JavaScript
+jQuery.ajaxSettings.xhr = function() {
+	try {
+		return new window.XMLHttpRequest();
+	} catch ( e ) {}
+};&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;```&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;###Parameter ( $.ajax(url[,setting]) )
+필요한 파라미터는 크게 &lt;strong&gt;url&lt;/strong&gt;과 &lt;strong&gt;setting&lt;/strong&gt; 2개로 볼 수 있습니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;url(String 타입)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;호출할 API의 엔드포인트&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;setting(PlainObject 타입)&lt;/strong&gt;
+ 	- key와 value체계로 이루어져 있는 PlainObject 타입으로서, Ajax 리퀘스트를 설정하는데 사용되는 파라미터 입니다.&lt;br /&gt; 모든 값은 옵셔널이며, 기본값은 $.ajaxSetup()메서드로 미리 정할 수 있습니다.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;async (기본값 true)&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;비동기/동기 전송을 정할 수 있는 파라미터로서, 기본값인 true면 비동기식으로 전송되고  false면 동기식으로 전송됩니다.&lt;br /&gt; 만약 동기식으로 전송될 경우 통신을 시작하면, 웹 도큐먼트에서 사용하는 자바스크립트 코드의 실행이 중지 됩니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;beforeSend (Function(jqXhr jqXhr, PlainObject settings))&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;AJAX 통신을 하기 전, jqXHR를 수정할 수 있습니다.&lt;br /&gt;보통 xhr에 setRequestHeader 메서드로 헤더값을 전송하거나, 통신 하기 전의 이벤트를 핸들링할때 콜백함수로 사용됩니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;complete (Function( jqXHR jqXHR, String textStatus))&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;AJAX 통신이 끝난 후 발생되는 이벤트를 핸들링 할 수 있도록 콜백함수를 제공합니다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;contentType (기본값: application/x-www-form-urlencoded; charset=UTF-8)&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;데이터를 서버로 전송할때, 이 content type 을 사용합니다. 기본값은 &lt;code class=&quot;highlighter-rouge&quot;&gt;application/x-www-form-urlencoded; charset=UTF-8&lt;/code&gt; 이며, 대부분의 경우 괜찮다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;hr /&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">#jQuery $.ajax() 메서드</summary></entry><entry><title type="html">UNIST 청소년 슈퍼컴퓨팅 캠프 요약정리</title><link href="http://localhost:4000/UNIST_Super_Computing_Camp/" rel="alternate" type="text/html" title="UNIST 청소년 슈퍼컴퓨팅 캠프 요약정리" /><published>2016-08-05T08:38:31+09:00</published><updated>2016-08-05T08:38:31+09:00</updated><id>http://localhost:4000/UNIST_Super_Computing_Camp</id><content type="html" xml:base="http://localhost:4000/UNIST_Super_Computing_Camp/">&lt;p&gt;#MPI Traning Course
+본 문서는 제 2회 국가청소년슈퍼컴퓨팅캠프에서 있었던 강의의 정리 문서입니다.&lt;/p&gt;
+
+&lt;p&gt;##Why Parallellzation?
+노드가 여러개 있다고 해서, 무조건 빠른건 아니다.&lt;/p&gt;
+
+&lt;p&gt;##Hello MPI
+MPI는 병렬프로그래밍을 위한 표준화된 데이터 통신 라이브러리다.&lt;br /&gt;
+먼저 MPI를 간단하게 예제코드를 실행하며 설명하겠다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hello_mpi.c 작성&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;mpi.h&amp;gt;
+
+int main (int &amp;amp;argc, &amp;amp;argv){
+	/* Initialize the library */
+	MPI_Init(&amp;amp;argc, &amp;amp;argv);
+	
+	printf(&quot;Hello World\n&quot;);
+	
+	/* Wrap it up. *
+	MPI_Finalize();
+	
+	return 0;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;컴파일 및 MPI실행&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;mpicc -o hello_mpi.x hello_mpi.c
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;mpirun -np &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;사용할 프로세스 수] ./hello_mpi.x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;그러면 조금 추가해서, 어떤 코어에서 프로세스가 동작하는지 확인해 보도록 하겠다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;mpi.h&amp;gt;
+
+int main (int &amp;amp;argc, &amp;amp;argv){
+
+	int core_capacity, core_id;
+
+	/* Initialize the library */
+	MPI_Init(&amp;amp;argc, &amp;amp;argv);
+	
+	MPI_Comm_size(MPI_COMM_WORLD, &amp;amp;core_capacity);
+	MPI_Comm_rank(MPI_COMM_WORLD, &amp;amp;core_id);
+	
+	printf(&quot;Hello MPI!\n core %d of a total of %d core_capacity\n&quot;, core_id, core_capacity);
+	
+	/* Wrap it up. *
+	MPI_Finalize();
+	
+	return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;해당코어가 프로세싱을 했을때, 정지하려면 어떻게 해야할까?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MPI_Barrier(MPI_COMM_WORLD);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이 함수를 쓰면 멈추게 된다. 이를 응용하여 코어의 id 순서대로 출력하도록 해보자.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;mpi.h&amp;gt;
+
+int main (int &amp;amp;argc, &amp;amp;argv){
+
+	int core_capacity, core_id;
+
+	/* Initialize the library */
+	MPI_Init(&amp;amp;argc, &amp;amp;argv);
+	
+	MPI_Comm_size(MPI_COMM_WORLD, &amp;amp;core_capacity);
+	MPI_Comm_rank(MPI_COMM_WORLD, &amp;amp;core_id);
+	
+	for(int i=0; i&amp;lt;core_capacity; i++){
+		if(core_id == i){
+			printf(&quot;Hello MPI!\n core %d of a total of %d core_capacity\n&quot;, core_id, core_capacity);
+		}
+		MPI_Barrier(MPI_COMM_WORLD);
+	}
+	
+	/* Wrap it up. *
+	MPI_Finalize();
+	
+	return 0;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;TIP&lt;/strong&gt; for문에서 변수 초기화는 c99버전에서 가능합니다.&lt;br /&gt;
+에러가나면 아래와 같이 컴파일 옵션을 설정해주세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;mpicc -o hello.x hello.c -std&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c99
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;##Collective Communication
+코어끼리는 다른 코어 프로세스를 바라볼 수 없다.&lt;br /&gt;
+그래서 코어간의 통신을 하려면 MPI에서 제공하는 함수를 사용해야 한다.&lt;/p&gt;
+
+&lt;p&gt;###MPI_Reduce
+ &lt;code class=&quot;highlighter-rouge&quot;&gt;MPI_Reduce()&lt;/code&gt;를 사용해야 한다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;MPI_Reduce(
+    void* send_data,
+    void* recv_data,
+    int count,
+    MPI_Datatype datatype,
+    MPI_Op op,
+    int root,
+    MPI_Comm communicator)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이를 활용하여 코드를 작성 해 보자.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;mpi.h&amp;gt;
+
+int main (int &amp;amp;argc, &amp;amp;argv){
+
+	int core_capacity, core_id;
+	int nsum = 0;
+
+	/* Initialize the library */
+	MPI_Init(&amp;amp;argc, &amp;amp;argv);
+	
+	MPI_Comm_size(MPI_COMM_WORLD, &amp;amp;core_capacity);
+	MPI_Comm_rank(MPI_COMM_WORLD, &amp;amp;core_id);
+	
+	MPI_Reduce(&amp;amp;core_id, &amp;amp;nsum, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
+	printf(&quot;SUM of core id's  = %d, my core id  = %d\n&quot;, nsum, core_id);
+	
+	/* Wrap it up. *
+	MPI_Finalize();
+	
+	return 0;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;결과를 보면 마지막 프로세스에 프로세스 id의 합이  전송된 것을 확인할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;###MPI_Allreduce&lt;/p&gt;
+
+&lt;p&gt;기존 &lt;code class=&quot;highlighter-rouge&quot;&gt;MPI_Reduce()&lt;/code&gt;와 다르게 다대다 방식이다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C&quot;&gt;MPI_Allreduce(
+    void* send_data,
+    void* recv_data,
+    int count,
+    MPI_Datatype datatype,
+    MPI_Op op,
+    MPI_Comm communicator)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;###MPI Gather&lt;/p&gt;
+
+&lt;p&gt;#슈퍼컴퓨터와 우주&lt;/p&gt;
+
+&lt;p&gt;##일반 상대론으로의 여정&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;시간이란 무엇인가?&lt;br /&gt;
+공간이란 무엇인가?&lt;br /&gt;
+중력의 본질은?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;근본적인 질문&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“막대의 길이”와 “시간의 흐름” : 움직이면 달라지는가?&lt;/li&gt;
+  &lt;li&gt;시공간은 물체의 출현에 영향을 받는가?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;예를들어 누군가 펜을 들고 움직인다면,&lt;/p&gt;
+
+&lt;p&gt;##블랙홀과 우주
+##중력파&lt;/p&gt;</content><summary type="html">#MPI Traning Course
+본 문서는 제 2회 국가청소년슈퍼컴퓨팅캠프에서 있었던 강의의 정리 문서입니다.</summary></entry><entry><title type="html">장고와 라라벨 뭘 써야 하나.</title><link href="http://localhost:4000/Django_vs_Laravel/" rel="alternate" type="text/html" title="장고와 라라벨 뭘 써야 하나." /><published>2016-08-05T08:38:31+09:00</published><updated>2016-08-05T08:38:31+09:00</updated><id>http://localhost:4000/Django_vs_Laravel</id><content type="html" xml:base="http://localhost:4000/Django_vs_Laravel/">&lt;p&gt;#MVC프레임워크 비교 (Django, Laravel)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.djangoproject.com/m/img/logos/django-logo-positive.png&quot; style=&quot;width:49%; display:inline-block;&quot; /&gt;
+&lt;img src=&quot;http://blog.legacyteam.info/wp-content/uploads/2014/10/laravel-logo-white.png&quot; style=&quot;width:49%; display:inline-block;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;새로운 시크릿차트에 쓰일 프레임워크를 선택하는데에 필요한 리서치 문서이다.&lt;br /&gt;
+2016년 7월 11일 경 개발팀의 논의결과 Django와 Laravel로 선택의 폭을 줄였으며 이에따라,&lt;br /&gt;
+두 프레임워크 각각의 기술적인 부분과, 서비스운영에 대한 부분까지 세세하게 다루도록 하겠다.&lt;/p&gt;
+
+&lt;p&gt;##Author (작성자)
+&lt;strong&gt;시크릿차트 개발팀 Jade(염승우)&lt;/strong&gt;&lt;br /&gt;
+질문사항 있으시면 언제든지  연락주세요.&lt;/p&gt;
+
+&lt;p&gt;##언어 측면에서&lt;/p&gt;
+
+&lt;p&gt;근본적으로 두 프레임워크는 다른 언어로 개발되어있고, 두 언어에 대한 차이는 상당히 크다. &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;으로 개발되었으며,  최신버전인 &lt;code class=&quot;highlighter-rouge&quot;&gt;1.9는&lt;/code&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Python 2.7 ~ 3.5&lt;/code&gt;까지 지원하며,&lt;br /&gt; 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel&lt;/code&gt;같은 경우는 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;로 개발되었으며, &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP 5.5.9&lt;/code&gt;이상을 지원한다.&lt;/p&gt;
+
+&lt;p&gt;###문법적인 차이
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;은 세련된 문법과 인간적인 언어로 잘 알려져 있으며, 들여쓰기를 통해 블록 구조를 구성하는 등의 특이한 문법을 가지고 있으며,&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;같은 경우는 근본적으로 &lt;code class=&quot;highlighter-rouge&quot;&gt;C&lt;/code&gt;의 스타일을 따르지만, 변수, 함수, 클래스 등의 관련 문법이 조금 다르다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Python으로 작성된 팩토리얼 재귀함수&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;def factorial(x):
+     if x == 0:
+         return 1
+     else:
+         return x * factorial(x - 1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;PHP로 작성된 팩토리얼 재귀함수&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-PHP&quot;&gt;function factorial($n) {
+  if ($n === 0) { 
+     return 1;
+  }
+  else {
+     return $n * fact($n-1);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;주로  &lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;은 비전공자가 소스코드를 읽어도 바로 이해할 정도로의 쉬운 문법을 가지고 있다는 장점이 있다.&lt;br /&gt;
+그래서 인간다운 언어라고 각광받고 있으나, 그만큼 너무 간결하고 다르다보니 &lt;code class=&quot;highlighter-rouge&quot;&gt;Java&lt;/code&gt;나  &lt;code class=&quot;highlighter-rouge&quot;&gt;C++&lt;/code&gt; 등 과 같은 기존의 메이저급(?) 언어를  사용하고 있던 개발자에겐 가독성이 현저히 떨어질 수 밖에 없다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;는 기존의 위에서 언급되었던 메이저급 언어를 사용해 왔던 개발자들에겐 그렇게 괴리감느낄 문법은 아닐 것이다.&lt;/p&gt;
+
+&lt;p&gt;###런타임 퍼포먼스의 차이&lt;/p&gt;
+
+&lt;p&gt;근본적으로 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;는 컴파일 언어고, &lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;은 인터프리터 언어이다. &lt;br /&gt;
+이에따라 속도적인 측면에서 차이가 조금 있는 것으로 보인다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;순수 런타임&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.famzah.net/2016/02/09/cpp-vs-python-vs-perl-vs-php-performance-benchmark-2016/&quot;&gt;C++ vs. Python vs. Perl vs. PHP performance benchmark (2016)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;글에 따르면 순수 런타임으로 봤을때는 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP 7.0&lt;/code&gt;이 &lt;code class=&quot;highlighter-rouge&quot;&gt;C++&lt;/code&gt;보다 497% 느리며, &lt;code class=&quot;highlighter-rouge&quot;&gt;Python 3.5&lt;/code&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;C++&lt;/code&gt;보다  1591% 느리다는 결과가 나왔다.&lt;br /&gt;
+두 언어 모두 최신버전이며, 순수 런타임으로 벤치마크를 돌렸을때의 결과라고 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HHVM VS Pypy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;런타임의 근본적인 문제라서 순정 런타임은 어쩔 수 없는 결과가 나온다.&lt;br /&gt;
+하지만 서드파티 컴파일러라면 다른 결과가 나온다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pypy&lt;/code&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;C&lt;/code&gt;보다 빠른 런타임을 위해 개발되어왔으며,  &lt;code class=&quot;highlighter-rouge&quot;&gt;python 2.6&lt;/code&gt; 이하만 지원이 가능한 것으로 보인다. &lt;br /&gt;기존코드보다 25배 빠를것이라고 추정된다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;HHVM&lt;/code&gt;은 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;를 사용하고있는 &lt;strong&gt;Facebook&lt;/strong&gt;사 가 만든 VM(Virtual Machine)이다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Hack&lt;/code&gt;과 &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP5&lt;/code&gt;를 공식지원하는것으로 보이며,&lt;br /&gt;
+기존 코드보다 최대 9배 빠를것으로 추정된다.&lt;/p&gt;
+
+&lt;p&gt;##유지보수 측면에서&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;라라벨 코리아&lt;/strong&gt;의 &lt;strong&gt;&lt;a href=&quot;https://www.laravel.co.kr/posts/237&quot;&gt;어떤 프레임워크를 써야 하는지 고민하시는 분들이라면 한번쯤 생각해 보세요&lt;/a&gt;&lt;/strong&gt; 게시글 인용&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;사실 특정 프레임워크를 이용해 만든 완성품은 차후에 어떤 개발자가 와도 유지보수가 쉽다는 장점이 있다.&lt;br /&gt;
+왜냐면 결국 프레임워크는 개발자를 단순화 시키고 표준모델을 만듬으로서 비용을 절감하기 위해 만들어진 도구이기 때문이다.&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이렇듯 인력적인 측면에서 봤을때 프레임워크에서의 유지보수는 무의미 하지만,  REST API, 이미지 캐싱, 데이터베이스 I/O 등 서비스 운영 측면에 있어서는 각각의 프레임워크의 모듈이나 미들웨어가 유지보수에 큰 영향을 끼치는 경우가 많으므로  고려해야할 문제 중 하나이다.&lt;/p&gt;
+
+&lt;p&gt;###지원사항의 차이&lt;/p&gt;
+
+&lt;p&gt;각 프레임워크의 지원사항 차이는 &lt;strong&gt;&lt;a href=&quot;http://vschart.com/compare/laravel/vs/django-framework&quot;&gt;Laravel VS Django (vsChart.com)&lt;/a&gt;&lt;/strong&gt; 에서 직관적으로 비교가 가능하다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;지원사항/프레임워크&lt;/th&gt;
+      &lt;th&gt;Laravel&lt;/th&gt;
+      &lt;th&gt;Django&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;지원언어&lt;/td&gt;
+      &lt;td&gt;PHP 5.5.9 이상&lt;/td&gt;
+      &lt;td&gt;Python 2.7 이상&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DB 모델&lt;/td&gt;
+      &lt;td&gt;객체지향적 모델&lt;/td&gt;
+      &lt;td&gt;Object-relational&lt;br /&gt; NoSQL&lt;br /&gt; Document-oriented&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;템플릿 엔진&lt;/td&gt;
+      &lt;td&gt;Blade 템플릿 엔진&lt;/td&gt;
+      &lt;td&gt;Django 템플릿 엔진&lt;br /&gt; Jinja&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;REST API&lt;/td&gt;
+      &lt;td&gt;엘로퀀트&lt;/td&gt;
+      &lt;td&gt;restframework 플러그인&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DB 마이그레이션&lt;/td&gt;
+      &lt;td&gt;?&lt;/td&gt;
+      &lt;td&gt;빌트인&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;###커뮤니티 활성화와 한국어 문서의 차이&lt;/p&gt;
+
+&lt;p&gt;####Laravel&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://xpressengine.github.io/laravel-korean-docs/&quot;&gt;라라벨 한국어 메뉴얼&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Naver D2운영진을 중심으로 깃허브 레포지토리의 다양한 컨트리뷰터에 의해 번역되었다.&lt;br /&gt;
+튜토리얼은  라우팅, 미들웨어, 컨트롤러 등의 기본적인 것들만 준비가 되어 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.laravel.co.kr/&quot;&gt;라라벨 코리아&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+라라벨 프레임워크를 사용하는 한국사용자 모임이다.&lt;br /&gt;
+글 리젠율을 보면 그렇게 높이 활성화 되진 않아보인다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://wiki.modernpug.org/display/LAR/questions/all&quot;&gt;라라벨 포럼&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+만들어진지 그렇게 오래되진 않아보이지만 질문 답변율도 나름 좋고 상승세로 보이고 있다.&lt;br /&gt;
+기존 라라벨 커뮤니티가 이쪽으로 모이고 있는 추세라고.. (Tim한테 들었던 얘기)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;####Django&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://tutorial.djangogirls.org/ko/django/&quot;&gt;장고걸스의 장고 튜토리얼 한글화 문서&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+장고걸스서울 운영진 및 한국인 자원 봉사자들에 의해 한국어로 번역되었다.&lt;br /&gt;
+초심자 타겟으로 작성되어 이 문서로 공부하면 습득이 나름 빠를 것으로 예상한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://djangogirls.org/seoul/&quot;&gt;장고걸스 서울 커뮤니티&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+장고걸스 서울 커뮤니티이며, 정모를 해서 정보를 나누는게 주 목적으로 보인다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://django-document-korean.readthedocs.io/en/old_master/&quot;&gt;Django 1.4 문서 한국어판&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+정말 오래됬지만 그나마 번역이 잘되어있는 레퍼런스 문서이다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##성공사례의 측면에서&lt;/p&gt;
+
+&lt;p&gt;###Laravel
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel&lt;/code&gt;의 성공사례&lt;/p&gt;
+
+&lt;p&gt;####Express Engine
+국내에서 유명한 CMS인 &lt;strong&gt;Naver&lt;/strong&gt;사의 XpressEngine 에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel&lt;/code&gt;을 사용하고 있다.&lt;br /&gt;
+이에 Naver D2에서 공식적인 한국어 메뉴얼과 커뮤니티를 활성화 시키면서 국내 &lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel&lt;/code&gt; 사용자가 급증하고 있다.&lt;br /&gt;
+&lt;a href=&quot;https://xpressengine.github.io/laravel-korean-docs/&quot;&gt;라라벨 한국어 메뉴얼&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;한국시장과 더불어 외국의 성공사례은 아직까지 크게 알려진 곳은 없는 듯 하다.&lt;br /&gt;
+&lt;a href=&quot;http://trends.builtwith.com/websitelist/Laravel&quot;&gt;Websites using Laravel : 라라벨의 외국사례&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;###Django
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;의 성공사례&lt;/p&gt;
+
+&lt;p&gt;####Instragram
+월간 4억명의 사용자가 사용하고있는  &lt;strong&gt;Instagram&lt;/strong&gt;은 &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;사용의 성공적인 사례다.&lt;br /&gt;
+인스타그램 엔지니어링팀은 텀블러를 통해 &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;와 &lt;code class=&quot;highlighter-rouge&quot;&gt;PostgreSQL&lt;/code&gt;을 사용한다고 밝혔다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;다음은 요청을 처리하는 애플리케이션 서버입니다. 아마존 High-CPU Extra-Large 머신에 Django를 올려서 사용하고 있습니다.( 역자 주: High-CPU Extra-Large Instance는 7GB 메모리에 20EC2 Compute Unit-각 2.5EC2 Compute Unit의 8 Core 1690GB 에 64bit 플랫폼이며, 시간당 $0.68 입니다.) 사용량이 늘면서 25대 이상을 사용하고 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances&quot;&gt;What Powers Instagram: Hundreds of Instances, Dozens of Technologies&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;####Pinterest&lt;/p&gt;
+
+&lt;p&gt;디자인 업계 사람들이 많이 사용한다는 이미지 기반 SNS 서비스인 &lt;strong&gt;Pinterest&lt;/strong&gt;의 애플리케이션 계층부분으로 &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;를 사용했다고 한다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We use python + heavily-modified Django at the application layer.  Tornado and (very selectively) node.js as web-servers.  Memcached and 
+membase / redis for object- and logical-caching, respectively.  RabbitMQ as a message queue.  Nginx, HAproxy and Varnish for static-delivery 
+and load-balancing.  Persistent data storage using MySQL.  MrJob on EMR for map-reduce.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;####BitBucket
+프라이빗 깃 레포지토리로 유명한 서비스 &lt;code class=&quot;highlighter-rouge&quot;&gt;BitBucket&lt;/code&gt; 이다.&lt;br /&gt;
+강력한 프레임워크를 무료로 이용할 수 있다는 장점 때문에 Django를 선택했다고 한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Why did you choose Django?&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;We chose Django for several reasons: We have worked with it for years before deciding to do Bitbucket, and it’s a wonderful framework where 
+you get a lot of things for free, such as URL mappings, form generation/validation, and it of course encourages DRY. It turned out to be an excellent choice, and we’ve overcome most of the bottlenecks without having to coerce the framework itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;그 외에도 언론사 사이트 &lt;strong&gt;Washington Post&lt;/strong&gt;, 프레젠테이션 서비스로 유명한 &lt;strong&gt;Prezi&lt;/strong&gt;, 음악 스티리밍 서비스인 &lt;strong&gt;Sportify&lt;/strong&gt; 또한 &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;를 기반으로 개발되었다고 한다.&lt;/p&gt;
+
+&lt;p&gt;국내에선 &lt;strong&gt;삼성생명&lt;/strong&gt;, &lt;strong&gt;LGU+&lt;/strong&gt;의 인트라넷 중 사내 콜센터 대응용 업무쪽이 Django를 사용하고 있는걸로 알려져 있다.&lt;/p&gt;
+
+&lt;p&gt;##끝으로&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;사실 ‘어느게 더 좋다’라고 딱 정해서 말 할수가 없다고 생각하는게 필자의 생각이다.&lt;/strong&gt;&lt;br /&gt;
+심지어 리서치 하고나서 더욱 더 모르겠다. 게다가 어느 프레임워크가 이미지 가공 효율이 좋고 뭐 그렇다는것도 없다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이 프레임워크는 이 기능에선 조금 뛰어나고 ~~~&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;del&gt;이런게 거의 확인하기가 애매하다. 프론트엔드 프레임워크라면 모를까 백엔드 풀스택 프레임워크라면 더욱 더.&lt;/del&gt;&lt;br /&gt;
+두 프레임워크 마다 각각의 강력한 미들웨어와 모듈이 존재하고 각 언어의 장벽도 비슷하다.&lt;/p&gt;
+
+&lt;p&gt;###제이드의 사견&lt;/p&gt;
+
+&lt;p&gt;Django(Python)의 세련된 문법과 안정적인 서비스 성공사례를 보니 끌리긴 한다.&lt;br /&gt;
+하지만 팀원 한명한명이 받아들이는게 다르기 때문에 Python의 문법이 정말 괴롭다면 &lt;code class=&quot;highlighter-rouge&quot;&gt;Laravel&lt;/code&gt;이 조금 더 낫다고 볼 수 있고,&lt;br /&gt;
+문법을 빨리 습득하고 개발에 바로 투입되는게 가능하다면 &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;를 사용하는 것도 나쁘지 않다고 본다.&lt;/p&gt;</content><summary type="html">#MVC프레임워크 비교 (Django, Laravel)</summary></entry><entry><title type="html">트리(Tree)에 대하여</title><link href="http://localhost:4000/About_Tree/" rel="alternate" type="text/html" title="트리(Tree)에 대하여" /><published>2016-03-18T08:38:31+09:00</published><updated>2016-03-18T08:38:31+09:00</updated><id>http://localhost:4000/About_Tree</id><content type="html" xml:base="http://localhost:4000/About_Tree/">&lt;p&gt;#그래프 (Graph)
+본 문서는 자료구조 ‘그래프’에 대하여 기술한 문서입니다.&lt;/p&gt;
+
+&lt;p&gt;##개요
+본 문서의 개요 및 구성은 다음과 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;그래프
+ 	- 그래프의 개념적 설명
+ 	- 그래프의 종류&lt;/li&gt;
+  &lt;li&gt;그래프의 순회
+ 	- 깊이 우선 탐색
+ 	- 너비 우선 탐색&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##그래프의 개념적 설명
+&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/300px-6n-graf.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그래프는 비선형 자료구조의 일종이며, 각 &lt;strong&gt;정점(Vertex)&lt;/strong&gt;와 그 사이를 잇는 &lt;strong&gt;간선(Edge)&lt;/strong&gt;들로 구성된 자료구조이다. 수학에서는 수학자 오일러가 한붓그리기 문제를 푼것을 그래프 이론의 시작으로 보고있다.&lt;/p&gt;
+
+&lt;p&gt;위 그림은 1부터 6까지의 정점들과 이어진 간선들로 구성된 그래프를 보여준다.&lt;/p&gt;
+
+&lt;p&gt;각 간선에는 가중치가 붙을 수 있으며, 이를 가중그래프라고 한다.&lt;/p&gt;
+
+&lt;p&gt;##그래프의 종류&lt;/p&gt;
+
+&lt;p&gt;그래프는 크게 간선의 방향이 존재하는 방향그래프, 그 반대로 방향이 없는 그래프인 방향그래프로 나뉜다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;방향그래프&lt;/li&gt;
+  &lt;li&gt;양방향 그래프&lt;/li&gt;
+  &lt;li&gt;무향그래프&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##그래프의 순회&lt;/p&gt;
+
+&lt;p&gt;그래프의 순회는 크게 아래 두가지로 나뉜다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;깊이 우선 탐색 (Depth First Search)&lt;/li&gt;
+  &lt;li&gt;너비 우선 탐색 (Breadth-First Search)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###깊이 우선 탐색&lt;/p&gt;
+
+&lt;p&gt;주어진 그래프에서 정점의 집합에 속한 모든 정점들을 한번씩 방문하는 것이다. 보통 스택을 이용하여 구현한다.&lt;/p&gt;
+
+&lt;p&gt;####깊이 우선 탐색의 알고리즘&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;지정된 출발 정점 V를 방문하면서 시작한다.&lt;/li&gt;
+  &lt;li&gt;V에 인접한 정점들 중 아직 방문되지 않은 정점을 큐에 넣는다.&lt;/li&gt;
+  &lt;li&gt;그 정점으로부터 다시 탐색시작&lt;/li&gt;
+  &lt;li&gt;반복&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;###너비 우선 탐색&lt;/p&gt;
+
+&lt;p&gt;주어진 그래프에서 시작정점을 먼저 방문한 후 그 시작정점에 인접한 모든 정점들을 차례대로 방문한다. 보통 큐를 이용하여 구현한다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;지정된 출발 정점 V를 방문하고, V에 인접한 모든 정점들을 차례로 방문한다.&lt;/li&gt;
+  &lt;li&gt;더 방문할 정점이 없는경우,  V에 인접한 정점들 중 먼저 방문된 정점에 인접한 정점들을 차례로 방문한다.&lt;/li&gt;
+  &lt;li&gt;차례를 더해가며 반복&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;다익스트라 알고리즘&lt;/h4&gt;
+
+&lt;p&gt;다익스트라 알고리즘은 가중치가 있는 방향그래프에서 임의의 두 노드 사이의 최단거리를 구하는 알고리즘이며, 너비 우선 탐색과 크게 다르지 않다.&lt;/p&gt;
+
+&lt;p&gt;각 노드까지의 최단거리를 저장한 배열을 선언하고 최단거리를 계속 갱신하여 최단거리를 구하는 방식이다.&lt;/p&gt;</content><summary type="html">#그래프 (Graph)
+본 문서는 자료구조 ‘그래프’에 대하여 기술한 문서입니다.</summary></entry><entry><title type="html">그래프 (Graph)에 대하</title><link href="http://localhost:4000/About_Graph/" rel="alternate" type="text/html" title="그래프 (Graph)에 대하" /><published>2016-03-17T08:38:31+09:00</published><updated>2016-03-17T08:38:31+09:00</updated><id>http://localhost:4000/About_Graph</id><content type="html" xml:base="http://localhost:4000/About_Graph/">&lt;p&gt;#그래프 (Graph)
+본 문서는 자료구조 ‘그래프’에 대하여 기술한 문서입니다.&lt;/p&gt;
+
+&lt;p&gt;##개요
+본 문서의 개요 및 구성은 다음과 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;그래프
+ 	- 그래프의 개념적 설명
+ 	- 그래프의 종류&lt;/li&gt;
+  &lt;li&gt;그래프의 순회
+ 	- 깊이 우선 탐색
+ 	- 너비 우선 탐색&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##그래프의 개념적 설명
+&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/300px-6n-graf.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그래프는 비선형 자료구조의 일종이며, 각 &lt;strong&gt;정점(Vertex)&lt;/strong&gt;와 그 사이를 잇는 &lt;strong&gt;간선(Edge)&lt;/strong&gt;들로 구성된 자료구조이다. 수학에서는 수학자 오일러가 한붓그리기 문제를 푼것을 그래프 이론의 시작으로 보고있다.&lt;/p&gt;
+
+&lt;p&gt;위 그림은 1부터 6까지의 정점들과 이어진 간선들로 구성된 그래프를 보여준다.&lt;/p&gt;
+
+&lt;p&gt;각 간선에는 가중치가 붙을 수 있으며, 이를 가중그래프라고 한다.&lt;/p&gt;
+
+&lt;p&gt;##그래프의 종류&lt;/p&gt;
+
+&lt;p&gt;그래프는 크게 간선의 방향이 존재하는 방향그래프, 그 반대로 방향이 없는 그래프인 방향그래프로 나뉜다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;방향그래프&lt;/li&gt;
+  &lt;li&gt;양방향 그래프&lt;/li&gt;
+  &lt;li&gt;무향그래프&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##그래프의 순회&lt;/p&gt;
+
+&lt;p&gt;그래프의 순회는 크게 아래 두가지로 나뉜다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;깊이 우선 탐색 (Depth First Search)&lt;/li&gt;
+  &lt;li&gt;너비 우선 탐색 (Breadth-First Search)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###깊이 우선 탐색&lt;/p&gt;
+
+&lt;p&gt;주어진 그래프에서 정점의 집합에 속한 모든 정점들을 한번씩 방문하는 것이다. 보통 스택을 이용하여 구현한다.&lt;/p&gt;
+
+&lt;p&gt;####깊이 우선 탐색의 알고리즘&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;지정된 출발 정점 V를 방문하면서 시작한다.&lt;/li&gt;
+  &lt;li&gt;V에 인접한 정점들 중 아직 방문되지 않은 정점을 큐에 넣는다.&lt;/li&gt;
+  &lt;li&gt;그 정점으로부터 다시 탐색시작&lt;/li&gt;
+  &lt;li&gt;반복&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;###너비 우선 탐색&lt;/p&gt;
+
+&lt;p&gt;주어진 그래프에서 시작정점을 먼저 방문한 후 그 시작정점에 인접한 모든 정점들을 차례대로 방문한다. 보통 큐를 이용하여 구현한다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;지정된 출발 정점 V를 방문하고, V에 인접한 모든 정점들을 차례로 방문한다.&lt;/li&gt;
+  &lt;li&gt;더 방문할 정점이 없는경우,  V에 인접한 정점들 중 먼저 방문된 정점에 인접한 정점들을 차례로 방문한다.&lt;/li&gt;
+  &lt;li&gt;차례를 더해가며 반복&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;다익스트라 알고리즘&lt;/h4&gt;
+
+&lt;p&gt;다익스트라 알고리즘은 가중치가 있는 방향그래프에서 임의의 두 노드 사이의 최단거리를 구하는 알고리즘이며, 너비 우선 탐색과 크게 다르지 않다.&lt;/p&gt;
+
+&lt;p&gt;각 노드까지의 최단거리를 저장한 배열을 선언하고 최단거리를 계속 갱신하여 최단거리를 구하는 방식이다.&lt;/p&gt;</content><summary type="html">#그래프 (Graph)
+본 문서는 자료구조 ‘그래프’에 대하여 기술한 문서입니다.</summary></entry><entry><title type="html">동적계획법(Dynamic Programming)</title><link href="http://localhost:4000/Dynamic-Programming/" rel="alternate" type="text/html" title="동적계획법(Dynamic Programming)" /><published>2016-01-26T08:38:31+09:00</published><updated>2016-01-26T08:38:31+09:00</updated><id>http://localhost:4000/Dynamic-Programming</id><content type="html" xml:base="http://localhost:4000/Dynamic-Programming/">&lt;p&gt;#동적계획법 (Dynamic Programming)
+본 문서는 동적계획법에 대해서 서술된 문서입니다.&lt;/p&gt;
+
+&lt;p&gt;##개요
+본 문서의 내용은 아래와 같이 서술되어 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;동적계획법이란&lt;/li&gt;
+  &lt;li&gt;메모이제이션&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##동적계획법
+동적계획법(Dynamic Programming) 이란, 프로그래밍 대회 문제에 가장 자주 출현하는 디자인 페러다임 중 하나이다. ‘동적계획법’이란 이름으론 무엇을 뜻하는지 알 수 없다. 이름과는 다르게 딱히 다이나믹한 부분도 없고, 그냥 여러 개의 문제로 나누어서 해결하는 방법을 말하는 뜻이다.
+&lt;del&gt;동적 계획법의 고안자인 벨만(Richard E. Bellman)은 dynamic이라는 단어가 멋있어서 선택했다고 한다.&lt;del&gt;&lt;/del&gt;&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;위에서 언급했듯, 한마디로 정의하자면 &lt;strong&gt;문제를 여러부분으로 나누어 해결하는 방법&lt;/strong&gt; 이라고 말할 수 있겠다.&lt;/p&gt;
+
+&lt;p&gt;##메모이제이션
+메모이제이션을 설명하기 전에, 먼저 소스코드로 메모이제이션의 필요성을 예를들어 설명하고자 한다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;#include &amp;lt;iostream&amp;gt;
+
+using namespace std;
+
+int getFibonacci(int targetNumber) {
+    cout &amp;lt;&amp;lt; &quot;fibonacci(&quot; &amp;lt;&amp;lt; targetNumber &amp;lt;&amp;lt; &quot;)&quot; &amp;lt;&amp;lt; endl;
+    if (targetNumber == 0) return 0;
+    else if (targetNumber == 1) return 1;
+    else return getFibonacci(targetNumber - 1) + getFibonacci(targetNumber - 2);
+}
+
+int main() {
+    int targetNumber;
+    cin &amp;gt;&amp;gt; targetNumber;
+    cout &amp;lt;&amp;lt; getFibonacci(targetNumber) &amp;lt;&amp;lt; endl;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;위 소스는 평범하게 재귀함수(Recursive Function)로 피보나치 수열을 출력하는 함수이다.&lt;/p&gt;
+
+&lt;p&gt;재귀로 계속탐색하면서 어떤 값(targetNumber)으로 함수가 호출되었을때, 출력하고 마지막에 결과를 출력한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;예제입력&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+7
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;예제출력&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+fibonacci(7)
+fibonacci(6)
+fibonacci(5)
+fibonacci(4)
+fibonacci(3)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(1)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(3)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(1)
+fibonacci(4)
+fibonacci(3)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(1)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(5)
+fibonacci(4)
+fibonacci(3)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(1)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(3)
+fibonacci(2)
+fibonacci(1)
+fibonacci(0)
+fibonacci(1)
+13
+&lt;/pre&gt;
+
+&lt;p&gt;무엇이 이상한지, 여기서 눈치채야한다. 분명 13이라는 수 자체는 피보나치 수열의 7번째 있는 수열의 항목이 맞긴 하다.
+하지만, 똑같은 값으로 여러번 호출되는 상황이 발생했다. 즉 &lt;strong&gt;두 번 이상 계산되는 부분 문제를 중복되는 부분문제가 발생한 것 이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이 알고리즘의 시간복잡도는 거듭제곱 시간복잡도의 알고리즘이고 비효율적인 알고리즘이라고 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;이러한 중복되는 부분을 해결하는 열쇠를 메모이제이션으로 꼽을 수 있다.&lt;/p&gt;
+
+&lt;p&gt;메모이제이션이란  &lt;strong&gt;동일한 계산을 반복해야 할 때, 이전에 계산한 값을 메모리에 저장함으로써 동일한 계산의 반복 수행을 제거하여 프로그램 실행 속도를 빠르게 하는 기술이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;즉 우리가 흔히 알고있는 캐시(Cache)와 비슷한 역할을 하는것이라고 볼 수 있다. 이러한 메모이제이션은 동적계획법의 핵심이 되는 기술이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;기존의 함수에 메모이제이션을 적용&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;#include &amp;lt;iostream&amp;gt;
+
+using namespace std;
+
+int getFibonacci(int targetNumber) {
+    static int cacheSpace[100];
+    if (cacheSpace[targetNumber] != 0)
+        return cacheSpace[targetNumber];
+    cout &amp;lt;&amp;lt; &quot;fibonacci(&quot; &amp;lt;&amp;lt; targetNumber &amp;lt;&amp;lt; &quot;)&quot; &amp;lt;&amp;lt; endl;
+    if (targetNumber == 1 || targetNumber == 2)
+        return cacheSpace[targetNumber] = 1;
+    int ret = getFibonacci(targetNumber - 1) + getFibonacci(targetNumber - 2);
+    return cacheSpace[targetNumber] = ret;
+}
+
+int main() {
+    int targetNumber;
+    cin &amp;gt;&amp;gt; targetNumber;
+    cout &amp;lt;&amp;lt; getFibonacci(targetNumber) &amp;lt;&amp;lt; endl;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;예제입력&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+7
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;예제출력&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+fibonacci(7)
+fibonacci(6)
+fibonacci(5)
+fibonacci(4)
+fibonacci(3)
+fibonacci(2)
+fibonacci(1)
+13
+&lt;/pre&gt;
+
+&lt;p&gt;함수안에 기존 계산값을 저장하는 공간을 따로 만들어, 재귀로 순환하며 기존의 계산된 값과 일치한 수가 공간에 있으면 계산을 안하고 그냥 넘겼다.&lt;/p&gt;
+
+&lt;p&gt;위 알고리즘의 시간복잡도는 O(n)이므로 기존의 알고리즘보다 훨신 더 효율적인 알고리즘이라고 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;##참고&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;구종만님의 ‘프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략’&lt;/li&gt;
+  &lt;li&gt;위키피디아, 나무위키 등의 위키위키 서비스&lt;/li&gt;
+  &lt;li&gt;스터디 학습내용&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">#동적계획법 (Dynamic Programming)
+본 문서는 동적계획법에 대해서 서술된 문서입니다.</summary></entry></feed>

@@ -2,29 +2,29 @@
 layout: default
 ---
 <div class="ui one column doubling stackable grid ui cards posts">
-  {% for post in site.posts %}
-  <div class="column">
-    <div class="ui card fluid post">
-      <!--{% if page.thumbnail %}-->
-      <!--<div class="image">-->
-        <!--<img src="{{page.thumbnail}}">-->
-      <!--</div>-->
-      <!--{% endif %}-->
-      <div class="content">
-        <a class="header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <div class="meta">
+    {% for post in site.posts %}
+    <div class="column">
+        <div class="ui card fluid post">
+            {% if post.thumbnail %}
+            <div class="image">
+                <img src="{{post.thumbnail}}">
+            </div>
+            {% endif %}
+            <div class="content">
+                <a class="header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <div class="meta">
 
+                </div>
+                <div class="description">
+                    {{ post.excerpt }}
+                </div>
+            </div>
+            <div class="extra content">
+                <a>
+                    <span class="date"><i class="calendar outline icon"></i>{{ post.date | date: '%B %d, %Y' }}</span>
+                </a>
+            </div>
         </div>
-        <div class="description">
-          {{ post.excerpt }}
-        </div>
-      </div>
-      <div class="extra content">
-        <a>
-          <span class="date"><i class="calendar outline icon"></i>{{ post.date | date: '%B %d, %Y' }}</span>
-        </a>
-      </div>
     </div>
-  </div>
-  {% endfor %}
+    {% endfor %}
 </div>
