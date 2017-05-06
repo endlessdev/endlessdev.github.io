@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <link rel="stylesheet" href="/libraries/slick/slick.css">
     <link rel="stylesheet" href="/libraries/slick/slick-theme.css">
     <script src="/libraries/slick/slick.min.js"></script>
@@ -99,13 +97,13 @@
     <!-- Title -->
     <section class="post-cover">
         <div class="post-cover-wrapper">
-            <div class="cover-thumb" style="background-image: url('https://udemy-images.udemy.com/course/750x422/672274_cd11_2.jpg')"></div>
+            <div class="cover-thumb" style="background-image: url('http://i.imgur.com/251Gdxq.jpg')"></div>
             <div class="cover-darker"></div>
             <div class="cover-content">
                 <div class="cover-content-wrapper">
                     <h1 class="blog-post-title">
                         <a>
-                            JavaScript 얕은복사, 깊은복사
+                            sakura
                         </a>
                     </h1>
                     <p class="blog-post-meta">
@@ -117,7 +115,7 @@
     <span class="meta-item categories">
                         <i class="archive icon"></i>
         
-        <a href="/categories/Javascript/">Javascript</a>
+        <a href="/categories/photos/">photos</a>
                         </span>
     
     
@@ -130,10 +128,7 @@
     <!-- Date and Author -->
     <!-- Content -->
     <div class="blog-post-content">
-        <p>자바스크립트 객체 복사에 관한 내용이다. 일반적으로 기본 자료형(Primitive Type) 을 변수에 할당하면 단순 값만 복사되지만,  참조 자료형(Reference Type) 같은 경우는 데이터에 대한 참조 값이 저장된다.<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> primitiveType = <span class="number">1</span>;</div><div class="line"><span class="keyword">var</span> foo = primitiveType;</div><div class="line">primitiveType = <span class="number">2</span>;</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(primitiveType, foo); <span class="comment">// 1,2</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> referenceType = [<span class="string">"S"</span>, <span class="string">"E"</span>, <span class="string">"X"</span>, <span class="string">"Y"</span>];</div><div class="line"><span class="keyword">var</span> bar = referenceType;</div><div class="line">bar[<span class="number">0</span>] = <span class="string">"G"</span></div><div class="line">bar[<span class="number">1</span>] = <span class="string">"A"</span></div><div class="line">bar[<span class="number">2</span>] = <span class="string">"A"</span></div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(referenceType, bar) <span class="comment">//["G", "A", "A", "Y"], ["G", "A", "A", "Y"]</span></div><div class="line"><span class="built_in">console</span>.log(referenceType == bar) <span class="comment">//true</span></div></pre></td></tr></table></figure></p>
-<p>예제를 봐도 알 수 있듯이 변수는 모두 메모리에 저장된다. 그리고 참조 자료형을 가지고 있는 변수값을 다른 변수에 할당하면 메모리 주소를 가리키게 된다. 변수 여러개로 값 하나를 가르키는 것이다. 개념은 포인터와 유사하다.</p>
-<p>이와 같은 현상을 <strong>Shallow Copy (얕은 복사)</strong> 라고 한다. 이걸 방지하려면 <strong>Deep Copy (깊은 복사)</strong>를 해야한다. 변수에 여러번 할당하면, 메모리에 값을 여러개 만드는거다. 방법은 간단히 array.slice(0)를 해주면 된다. 0개만큼 값을 자르기 때문에, 그대로 반환하고 값은 따로 복사되기 때문이다. </p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> referenceType = [<span class="string">"S"</span>, <span class="string">"E"</span>, <span class="string">"X"</span>, <span class="string">"Y"</span>];</div><div class="line"><span class="keyword">var</span> bar = <span class="built_in">Array</span>.prototype.slice.call(referenceType);</div><div class="line">bar[<span class="number">0</span>] = <span class="string">"G"</span></div><div class="line">bar[<span class="number">1</span>] = <span class="string">"A"</span></div><div class="line">bar[<span class="number">2</span>] = <span class="string">"A"</span></div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(referenceType, bar) <span class="comment">//["S", "E", "X", "Y"], ["G", "A", "A", "Y"]</span></div><div class="line"><span class="built_in">console</span>.log(referenceType == bar) <span class="comment">//false</span></div></pre></td></tr></table></figure>
+        
     </div>
     <div class="ui divider blog-post-end-line"/>
     <!-- Tags and Categories links -->
@@ -143,7 +138,7 @@
     var disqus_shortname = 'endlessdev';
     var disqus_developer = 1;
     
-    var disqus_url = 'http://endlessdev.github.io/2017/05/06/javascript-shallow-deep-copy/';
+    var disqus_url = 'http://endlessdev.github.io/2017/05/06/sakura/';
     
     (function(){
         var dsq = document.createElement('script');
