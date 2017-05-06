@@ -8,7 +8,6 @@ $(function () {
 
     var lastScroll = 0;
     $contentSection.scroll(function () {
-        console.log("asdf")
         var scrollTopPotision = $(this).scrollTop();
         if (scrollTopPotision > lastScroll) {
             toggleHeader(true);
