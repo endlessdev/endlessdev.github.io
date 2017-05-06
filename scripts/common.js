@@ -7,7 +7,8 @@ $(function () {
     var $navToggle = $(".ion-menu-icon, .ion-back-icon, .shadow");
 
     var lastScroll = 0;
-    $(document).scroll(function () {
+    $contentSection.scroll(function () {
+        console.log("asdf")
         var scrollTopPotision = $(this).scrollTop();
         if (scrollTopPotision > lastScroll) {
             toggleHeader(true);
