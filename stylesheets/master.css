@@ -215,7 +215,14 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
   .content-header {
     display: block !important;
     top: 60px !important;
-    z-index: 10 !important; }
+    z-index: 10 !important;
+    padding-top: 0px !important;
+    background-color: rgba(255, 255, 255, 0.9) !important; }
+    .content-header .ui.secondary.pointing.menu .item {
+      padding-bottom: 14px !important; }
+
+  .content-wrapper {
+    padding: 72px 20px 10px  !important; }
 
   section.content-section {
     padding-left: 0 !important; }
