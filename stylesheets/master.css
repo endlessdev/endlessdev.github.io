@@ -610,10 +610,10 @@ section.content-section {
   margin-top: 20px;
   margin-bottom: 20px; }
   .blog-post .post-cover {
+    margin-top: -80px;
     height: 50vh;
     margin-left: -40px;
     width: calc(100% + 60px);
-    margin-top: -52px;
     margin-bottom: 40px;
     padding: 20px 0 20px 20px; }
     .blog-post .post-cover .post-cover-wrapper {
