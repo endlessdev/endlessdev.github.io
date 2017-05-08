@@ -575,7 +575,7 @@ section.content-section {
       background-image: url(http://i.imgur.com/vUEDrtE.jpg);
       background-size: cover;
       background-position: center;
-      border: 5px solid rgba(255, 255, 255, 0.5);
+      border: 1px solid white;
       outline: 1px solid #e0e0e0;
       border-left: 0; }
   .about-section > .title {
