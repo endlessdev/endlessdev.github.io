@@ -1,14 +1,14 @@
 /*
-Error: File to import not found or unreadable: utils/variables.
+Error: File to import not found or unreadable: utils/_variables.
         on line 3 of master.scss
 
 1: @charset "utf-8";
 2: 
-3: @import "utils/variables";
-4: @import "utils/animations";
-5: @import "utils/reset";
-6: @import "utils/highlights";
-7: @import "utils/theme";
+3: @import "utils/_variables";
+4: @import "utils/_animations";
+5: @import "utils/_reset";
+6: @import "utils/_highlights";
+7: @import "utils/_theme";
 8: 
 
 Backtrace:
@@ -55,4 +55,4 @@ master.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: utils/variables.\A         on line 3 of master.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: @import \"utils/variables\";\A 4: @import \"utils/animations\";\A 5: @import \"utils/reset\";\A 6: @import \"utils/highlights\";\A 7: @import \"utils/theme\";\A 8: "; }
+  content: "Error: File to import not found or unreadable: utils/_variables.\A         on line 3 of master.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: @import \"utils/_variables\";\A 4: @import \"utils/_animations\";\A 5: @import \"utils/_reset\";\A 6: @import \"utils/_highlights\";\A 7: @import \"utils/_theme\";\A 8: "; }
