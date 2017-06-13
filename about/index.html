@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta charset="UTF-8">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
     <title>JADE YEOM :: about</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -23,11 +23,11 @@
     <link rel="stylesheet" href="/libraries/slick/slick-theme.css">
     <script src="/libraries/slick/slick.min.js"></script>
     <script src="/libraries/parallax.min.js"></script>
-    <script src="/scripts/common.js"></script>
+    <script src="/scripts/common.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body>
-<nav class="main-nav">
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><nav class="main-nav">
     <div class="main-nav-wrapper">
         <section class="profile-box">
             <div class="thumb"></div>
@@ -219,6 +219,23 @@
 
 
     </div>
-</section>
+</section><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 </body>
 </html>
