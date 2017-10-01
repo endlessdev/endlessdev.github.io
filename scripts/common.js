@@ -9,24 +9,12 @@ $(function () {
     var lastScroll = 0;
     $contentSection.scroll(function () {
         var scrollTopPotision = $(this).scrollTop();
-        if (scrollTopPotision > lastScroll) {
+        if ((scrollTopPotision > lastScroll) && scrollTopPotision > $commonHeader.height()) {
             toggleHeader(true);
         } else {
             toggleHeader(false);
         }
         lastScroll = scrollTopPotision;
-    });
-
-    $navToggle.click(function () {
-        if ($mobileSideNav.hasClass("slide-in")) {
-            $mobileSideNav.removeClass("slide-in");
-            $mobileSideNav.addClass("slide-out");
-        } else if ($mobileSideNav.hasClass("slide-out")) {
-            $mobileSideNav.removeClass("slide-out");
-            $mobileSideNav.addClass("slide-in");
-        } else {
-
-        }
     });
 
     function toggleHeader(isSlideIn) {
