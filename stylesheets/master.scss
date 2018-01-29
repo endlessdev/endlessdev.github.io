@@ -1,16 +1,16 @@
 @charset "utf-8";
 
-@import "utils/variables";
-@import "utils/animations";
-@import "utils/reset";
-@import "utils/highlights";
- @import "utils/theme";
+@import "utils/_variables";
+@import "utils/_animations";
+@import "utils/_reset";
+@import "utils/_highlights";
+ @import "utils/_theme";
 
-@import "layout/nav";
-@import "layout/header";
-@import "layout/footer";
-@import "page/posts";
-@import "page/photos";
-@import "page/about";
+@import "layout/_nav";
+@import "layout/_header";
+@import "layout/_footer";
+@import "page/_posts";
+@import "page/_photos";
+@import "page/_about";
 
-@import "page/detail";
+@import "page/_detail";
