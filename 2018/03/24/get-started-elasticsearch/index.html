@@ -1,0 +1,280 @@
+<html>
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+    <title>JADE YEOM :: ElasticSearch 발만 살짝 담궈볼까?</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+    <link rel="stylesheet" href="/stylesheets/master.css">
+    <meta property="og:image" content="https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_29in03.png" />
+    <meta property="og:title" content="ElasticSearch 발만 살짝 담궈볼까?" />
+    <!--<link rel="stylesheet" href="stylesheets/master.css">-->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href='http://fontsforweb.com/font/getcss?id=4008&apikey=29fd984c9ca46e99805d023815d6e70f' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <link rel="stylesheet" href="/libraries/slick/slick.css">
+    <link rel="stylesheet" href="/libraries/slick/slick-theme.css">
+    <script src="/libraries/slick/slick.min.js"></script>
+    <script src="/libraries/parallax.min.js"></script>
+    <script src="/scripts/common.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+<body>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><nav class="main-nav">
+    <div class="main-nav-wrapper">
+        <section class="profile-box">
+            <div class="thumb"></div>
+            <h3 class="name"><img class="logo" src="/images/narinlogo.svg">JADE <b>YEOM</b></h3>
+            <div class="divider"></div>
+            <p class="comment">不狂不及<br>EXPERIMENT, FAIL, LEARN, REPEAT.</p>
+            <p class="social">
+                <a class="item twitter" href="https://twitter.com/endless_hack"></a>
+                <a class="item facebook" href="https://www.facebook.com/yeom.jade.1"></a>
+                <a class="item instagram" href="https://www.instagram.com/endlessdev"></a>
+                <a class="item github" href="https://github.com/endlessdev"></a>
+                <a class="item dribbble" href="https://dribbble.com/endlessdev"></a>
+            </p>
+        </section>
+        <footer class="nav-footer">
+            <div class="side-nav-text"></div>
+        </footer>
+    </div>
+</nav>
+<nav class="main-nav-m slide-in">
+    <div class="shadow"></div>
+    <div class="main-nav-wrapper">
+        <div class="nav-bg"></div>
+        <div class="nav-content">
+            <span class="ion-back-icon"></span>
+            <ul class="menu">
+                <li class="item"><a href="/">POSTS</a></li>
+                <li class="item"><a href="/about">ABOUT</a></li>
+                <li class="item"><a href="/photos">PHOTOS</a></li>
+                <li class="item"><a href="/projects">PROJECTS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="content-section">
+    
+
+<div class="mobile-top-menu">
+    <div class="menu-title">
+        <!--<span class="ion-menu-icon"></span>-->
+        <div class="thumb"></div>
+        <div class="content">
+            <h2 class="title">JADE <b>YEOM</b></h2>
+            <small class="summary"><b>不狂不及</b> - EXPERIMENT, FAIL, LEARN, REPEAT.</small>
+        </div>
+    </div>
+</div>
+<header class="content-header">
+    <div class="ui secondary pointing menu">
+        
+        <a class="ui item back" href="/">
+            <i class="angle left icon"></i> POSTS
+        </a>
+        
+        <a class="item " href="/about">
+            ABOUT
+        </a>
+        <a class="item " href="/photos">
+            PHOTOS
+        </a>
+        <a class="item " href="https://github.com/endlessdev">
+            PROJECTS
+        </a>
+
+        <div class="right menu">
+            <div class="item">
+                <div class="ui icon input">
+                    <input type="text" placeholder="검색어를 입력해 주세요.">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="content-wrapper">
+        
+
+<div class="blog-post">
+    <!-- Title -->
+    <section class="post-cover">
+        <div class="post-cover-wrapper">
+            <div class="cover-thumb" style="background-image: url('https://www.elastic.co/guide/en/elasticsearch/guide/current/images/elas_29in03.png')"></div>
+            <div class="cover-darker"></div>
+            <div class="cover-content">
+                <div class="cover-content-wrapper">
+                    <h1 class="blog-post-title">
+                        <a>
+                            ElasticSearch 발만 살짝 담궈볼까?
+                        </a>
+                    </h1>
+                    <p class="blog-post-meta">
+                    <span class="meta-item date">
+                    <i class="calendar outline icon"></i> 2018-03-24
+                        
+                    </span>
+    
+    <span class="meta-item categories">
+                        <i class="archive icon"></i>
+        
+        <a href="/categories/research/">research</a>
+                        </span>
+    
+    
+    <span class="meta-item tags">
+                            <i class="tags icon"></i>
+        
+        <a href="/tags/ElasticSearch/">#ElasticSearch</a>,<a href="/tags/BigData/">#BigData</a>,<a href="/tags/NLP/">#NLP</a>,<a href="/tags/Search-Engine/">#Search_Engine</a>
+                        </span>
+    
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Date and Author -->
+    <!-- Content -->
+    <div class="blog-post-content">
+        <p> <code>ElasticSearch</code> 이라는 기술 (이하 엘라스틱서치)에 대해 간단히 알아볼거예요. 사실 이 기술은 저에게는 말로만 들어보고, 한 번도 이용해보지 않은 기술이었어요. 단지 대용량 데이터의 검색엔진에 쓰이는 효과적인 기술이라고만 생각했죠. 써 볼 기회도 없었고요.  <code>SPRYFIT</code>에서의 업무를 종료하고 한국으로 돌아와 새로운 직장을 찾던 중, 정말 저에게 맞는 회사를 찾게 되었어요. 얘기를 해보던 중 그 회사의 CTO분께서 엘라스틱서치에 대해 찾아보라는 말씀을 해주셨기도 하고, 평소에 관심을 가지고 있던 기술이라서 제 나름대로 엘라스틱서치에 대해 알아보려고 해요.</p>
+<h2 id="ElasticSearch란"><a href="#ElasticSearch란" class="headerlink" title="ElasticSearch란?"></a>ElasticSearch란?</h2><p>엘라스틱서치에 대한 설명은 <a href="https://www.elastic.co/kr/products/elasticsearch" target="_blank" rel="external">공식 홈페이지</a>에 아래와 같이 작성되어 있었어요.</p>
+<blockquote>
+<p>Elasticsearch는 점점 많은 문제를 해결하는 분산형 RESTful 검색 및 분석 엔진입니다. Elastic Stack의 핵심으로, 데이터를 중심부에 저장하여 예상되는 항목을 검색하고 예상치 못한 항목을 밝혀낼 수 있습니다.  </p>
+</blockquote>
+<p>위 설명글을 간단히 요약하면, ElasticSearch는 <strong>분산형 RESTful 검색 및 분석 엔진</strong> 이라고 말할 수 있겠네요. 한번 더 알기쉽게 풀어본다면, <strong>빠르고 효율적인 분산처리를 통해 얻은 검색 및 분석 결과를 RESTful API로써 제공하는 기술</strong>이라고 이해해도 좋을 것 같군요. (Elastic Stack에 대한 얘기는 밑에서 다시 하겠습니다.)</p>
+<h2 id="ElasticSearch의-필요성과-장점"><a href="#ElasticSearch의-필요성과-장점" class="headerlink" title="ElasticSearch의 필요성과 장점"></a>ElasticSearch의 필요성과 장점</h2><p>하지만 위의 설명만 봐선 엘라스틱서치를 도대체 왜, 어디에 써야하는지 알 수 없을 것 같아요. 좀 더 구체적으로 이 기술의 필요성과 장점에 대해 알아보도록 하겠습니다.</p>
+<h3 id="검색-속도가-엄청-빠르다"><a href="#검색-속도가-엄청-빠르다" class="headerlink" title="검색 속도가 엄청 빠르다."></a>검색 속도가 엄청 빠르다.</h3><p>숫자와 위치 데이터의 처리를 위해 <a href="https://users.cs.duke.edu/~pankaj/publications/papers/bkd-sstd.pdf" target="_blank" rel="external">BKD Tree</a>를 구현했고, 텍스트 문서에서는 <a href="https://en.wikipedia.org/wiki/Inverted_index" target="_blank" rel="external">Inverted Index</a> 방법을 적용하여 데이터를 빠른 속도로 액세스 할 수 있다고 합니다. 또한 이런 데이터를 빠르게 분석하기 위해 <a href="https://docs.microsoft.com/ko-kr/sql/relational-databases/indexes/columnstore-indexes-overview" target="_blank" rel="external">Columnstore</a>를 사용한다고 하네요. </p>
+<p><strong>Inverted Index</strong><br>데이터를 빠르게 검색하기에 아주 효율적인 색인 방법 입니다. “Inverted Index” 즉, <strong>역 색인</strong> 입니다. 아래 그림과 함께 역 색인이 어떤식으로 동작하는지 알아보도록 할게요.</p>
+<p><img src="http://www.hotcodeshare.com/sites/default/files/users/khiemtt/inverted-index.png" alt=""></p>
+<p>예를들어 위와 같이 텍스트 문서들이 여러 개 있다고 한다면, 이 텍스트를 단어로 쪼개는 거예요. 이걸 Tokenize 한다고 하는데, 이렇게 단어별로 쪼개고 난 뒤에 이 단어가 얼마나 쓰였고 어디에 쓰였는지를 미리 저장해 두는거죠. 이로 인해 단어로 텍스트 문서를 검색한다고 했을 때, 빠르게 해당 문서에 접근이 가능한거에요. (DynamicProgramming과 비슷한 맥락이라고 생각해요.) </p>
+<p>Tokenize 방법은 제가 예로 설명해서 단어로만 말씀드렸지만, 각 언어별로 개발된 자연어 처리 라이브러리를 통해 명사, 형용사 등으로 구분해서 적용시킬 수 있겠죠.</p>
+<blockquote>
+<p>사실 이 역 색인 기술을 핵심적으로 활용해서 나온 “Lucene” 이라는 Java로 작성된 검색 라이브러리가 있었어요. 하지만 라이브러리 특성상 확장성이 부족하기 때문에 이 라이브러리를 기반으로 개발된 것이 엘라스틱서치라고 해요.</p>
+</blockquote>
+<p><strong>Columnstore</strong><br>컬럼스토어라고 불리는 이 기술은 행 기반(Row-Based)이 아닌 열 기반 (Column-Based) 으로 쿼리를 처리해서 기존보다 10배 가량 더 빠르게 쿼리를 처리할 수 있는 기술이라고 합니다.</p>
+<p>이러한 기술들을 사용함에 따라 엘라스틱서치를 통해 어떠한 데이터 타입에도 실시간 검색 및 분석을 빠르게 할 수 있다는 것을 알 수 있습니다.</p>
+<blockquote>
+<p><strong>Note</strong><br>위와 같은 핵심 기술에 관해 더 찾아봐야 할 필요성이 있어보이네요. 관련 문서를 하이퍼 링크로 달아두었으니 참고하시면 될 것 같아요. ( 또한 잘 아시는 분은 댓글로 남겨주시면 감사하겠습니다. )  </p>
+</blockquote>
+<h3 id="데이터가-크건-작건-어느-곳에서-돌아간다"><a href="#데이터가-크건-작건-어느-곳에서-돌아간다" class="headerlink" title="데이터가 크건 작건, 어느 곳에서 돌아간다."></a>데이터가 크건 작건, 어느 곳에서 돌아간다.</h3><p>데이터의 크기에 따라 자유자재로 처리 노드를 조절하면서 Cluster를 구성해 인덱스 관리와 쿼리처리를 계속 자동적으로 관리한다고 합니다. 따라서 더욱 다이나믹하게 확장을 할 수 있다는 말이 되겠네요. </p>
+<h2 id="ElasticSearch-설치하기"><a href="#ElasticSearch-설치하기" class="headerlink" title="ElasticSearch 설치하기"></a>ElasticSearch 설치하기</h2><p>이렇게 좋은 기술을 설명만 듣고 도저히 안써볼수가 없겠어요. 빨리 ElasticSearch를 설치하고 직접 사용해보면서 경험해보기로 해요.</p>
+<p>먼저 설치하기 전에 버전과 필요한 환경에 대해 간략히 설명해 드릴게요.</p>
+<ul>
+<li>이 설치 가이드는 Ubuntu 16.04, 글 작성 날짜 기준으로 ElasticSearch의 최신버전인 6.2.3을 기준으로 작성되었어요.</li>
+<li>Java JRE 가 설치되어 있어야 해요. (ElasticSearch는 Java로 작성된 오픈소스 검색엔진이에요. 따라서 ElasticSearch를 구동하기 위해서는 JRE가 필요한 것이죠)</li>
+<li>따라서 JRE이 설치되어있는 환경이라면 Windows, Linux, Mac OS 등 운영체제의 제약을 받지 않고 사용하실 수 있어요.</li>
+</ul>
+<h3 id="패키지-설치하기"><a href="#패키지-설치하기" class="headerlink" title="패키지 설치하기"></a>패키지 설치하기</h3><p>일단 elastic.co를 통해 최신버전의 패키지를 다운받아 아래와 같이 <code>bash</code>명령어를 통해 엘라스틱서치를 설치해주세요.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">// elastic.co 를 통해 DEB 패키지 다운로드</div><div class="line">$ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.3.deb</div><div class="line">// DEB 패키지 설치</div><div class="line">$ sudo dpkg -i elasticsearch-6.2.3.deb</div></pre></td></tr></table></figure>
+<p>이렇게 설치가 끝났으면, <code>/bin/elasticsearch</code> 와 같이 Executable 한 프로그램이 생겼을거예요. 그걸 그냥 실행해 주시면 되겠습니다. </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ java /bin/elasticsearch</div></pre></td></tr></table></figure>
+<p>실행을 시키면 기본 포트인 9700 포트에 RESTful API 형태로 배포가 완료됩니다. 한번 확인해볼까요?</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">$ curl -X http://localhost:9700 </div><div class="line">&#123;</div><div class="line">  <span class="string">"name"</span> : <span class="string">"fRC1P2d"</span>,</div><div class="line">  <span class="string">"cluster_name"</span> : <span class="string">"elasticsearch_endlessdev"</span>,</div><div class="line">  <span class="string">"cluster_uuid"</span> : <span class="string">"SMiQLHCbTcOcCfTWOkzxvg"</span>,</div><div class="line">  <span class="string">"version"</span> : &#123;</div><div class="line">    <span class="string">"number"</span> : <span class="string">"6.2.3"</span>,</div><div class="line">    <span class="string">"build_hash"</span> : <span class="string">"c59ff00"</span>,</div><div class="line">    <span class="string">"build_date"</span> : <span class="string">"2018-03-13T10:06:29.741383Z"</span>,</div><div class="line">    <span class="string">"build_snapshot"</span> : <span class="literal">false</span>,</div><div class="line">    <span class="string">"lucene_version"</span> : <span class="string">"7.2.1"</span>,</div><div class="line">    <span class="string">"minimum_wire_compatibility_version"</span> : <span class="string">"5.6.0"</span>,</div><div class="line">    <span class="string">"minimum_index_compatibility_version"</span> : <span class="string">"5.0.0"</span></div><div class="line">  &#125;,</div><div class="line">  <span class="string">"tagline"</span> : <span class="string">"You Know, for Search"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>👏 짝짝짝! 이제 우리는 엘라스틱서치를 경험해볼 모든 준비가 끝났어요!👏</strong></p>
+<h2 id="ElasticSearch-사용해보기"><a href="#ElasticSearch-사용해보기" class="headerlink" title="ElasticSearch 사용해보기"></a>ElasticSearch 사용해보기</h2><p>앞서 엘라스틱서치는 RESTful API 형태로 실행된다고 했어요. 그렇다면 기본적인 CRUD 작업은 다 하면서, 빠른 데이터 검색과 분석을 제공하는게 핵심이라고 할 수 있겠네요. </p>
+<p>엘라스틱서치에서 기본적으로 제공하는 핵심 API는 다음과 같았어요. </p>
+<ul>
+<li><strong>Index API</strong></li>
+<li><strong>Get API</strong></li>
+<li><strong>Delete API</strong></li>
+<li><strong>Update API</strong></li>
+</ul>
+<h2 id="ElasticStack-더-알아보기"><a href="#ElasticStack-더-알아보기" class="headerlink" title="ElasticStack ( 더 알아보기 )"></a>ElasticStack ( 더 알아보기 )</h2>
+    </div>
+    <div class="ui divider blog-post-end-line">
+    </div>
+    <!-- Tags and Categories links -->
+    
+<div id="disqus_thread"></div>
+<script>
+    var disqus_shortname = 'endlessdev';
+    var disqus_developer = 1;
+    
+    var disqus_url = 'http://endlessdev.github.io/2018/03/24/get-started-elasticsearch/';
+    
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//go.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+</div>
+
+        <footer class="footer-section">
+    <div class="ui divider"></div>
+    <div class="footer-wrapper">
+        <div class="ui vertical footer segment">
+            <div class="ui center aligned container">
+                <div class="ui stackable grid">
+                    <div class="three wide column">
+                        <h4 class="ui header">소셜 네트워크</h4>
+                        <div class="ui link list">
+                            <a href="https://www.facebook.com/yeom.jade.1" class="item">페이스북</a>
+                            <a href="https://twitter.com/endless_hack" class="item">트위터</a>
+                            <a href="https://www.instagram.com/endlessdev" class="item">인스타그램</a>
+                            <a href="https://github.com/endlessdev" class="item">깃허브</a>
+                            <a href="https://dribbble.com/endlessdev" class="item">드리블</a>
+                        </div>
+                    </div>
+                    <div class="eight wide right floated column">
+                        <h4 class="ui header" style="color: #E91E63;">제이드에게 후원하기</h4>
+                        <p>이 프로젝트를 아래의 가상화폐 지갑을 통해 후원할 수 있습니다.<br>후원 자금은 개발자의 사리사욕을 위해 사용됩니다.</p>
+                        <a class="ui image label small" style="font-size:8px; margin-bottom:5px;">
+                            <img src="https://bitcoin.org/img/icons/opengraph.png">
+                            Bitcoin
+                            <div class="detail">1J9kYjLznSyKhuLPNj9d6eVZ9sJUueg4Y9</div>
+                        </a><br>
+                        <a class="ui image label small" style="font-size:8px">
+                            <img src="https://maxcdn.icons8.com/Share/icon/color/Logos//ethereum1600.png">
+                            Ethereum
+                            <div class="detail">0xb31d4ec46cd1245d338bb02fb1f2fbdcf11f01f2</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui inverted section divider"></div>
+                <img src="/images/narin_ci.svg" class="ui centered small image">
+                <div class="ui horizontal small link list">
+                    <span class="item">Copyright © 2018 Narin Inc. All rights reserved.</span><br>
+                    <span class="item">Made with ❤️ in Seoul, Republic of Korea</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+</section><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>
