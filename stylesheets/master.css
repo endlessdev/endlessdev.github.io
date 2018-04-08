@@ -392,13 +392,9 @@ nav.main-nav .main-nav-wrapper .nav-footer h1 {
 
 nav.main-nav .main-nav-wrapper .nav-footer .side-nav-text {
   width: 25vh;
-  height: 500px;
-  background-image: url(../images/side_text.svg);
-  background-size: contain;
   opacity: 0.1;
-  background-repeat: no-repeat;
   position: absolute;
-  bottom: -320px;
+  bottom: 0;
 }
 
 nav.main-nav .main-nav-wrapper .profile-box {
@@ -564,6 +560,24 @@ nav.main-nav .main-nav-wrapper .profile-box .divider {
 .main-nav-m .main-nav-wrapper .nav-content .menu .item > a {
   color: black;
   font-size: 12px;
+}
+
+::selection {
+  background: #E91E63;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #E91E63;
+  color: #FFF;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background: #E91E63;
+  color: #FFF;
+  text-shadow: none;
 }
 
 section.content-section {

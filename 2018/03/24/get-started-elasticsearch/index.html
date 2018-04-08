@@ -46,7 +46,7 @@
             </p>
         </section>
         <footer class="nav-footer">
-            <div class="side-nav-text"></div>
+            <img class="side-nav-text" src="/images/side_text.svg">
         </footer>
     </div>
 </nav>
@@ -183,16 +183,8 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ java /bin/elasticsearch</div></pre></td></tr></table></figure>
 <p>실행을 시키면 기본 포트인 9700 포트에 RESTful API 형태로 배포가 완료됩니다. 한번 확인해볼까요?</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">$ curl -X http://localhost:9700 </div><div class="line">&#123;</div><div class="line">  <span class="string">"name"</span> : <span class="string">"fRC1P2d"</span>,</div><div class="line">  <span class="string">"cluster_name"</span> : <span class="string">"elasticsearch_endlessdev"</span>,</div><div class="line">  <span class="string">"cluster_uuid"</span> : <span class="string">"SMiQLHCbTcOcCfTWOkzxvg"</span>,</div><div class="line">  <span class="string">"version"</span> : &#123;</div><div class="line">    <span class="string">"number"</span> : <span class="string">"6.2.3"</span>,</div><div class="line">    <span class="string">"build_hash"</span> : <span class="string">"c59ff00"</span>,</div><div class="line">    <span class="string">"build_date"</span> : <span class="string">"2018-03-13T10:06:29.741383Z"</span>,</div><div class="line">    <span class="string">"build_snapshot"</span> : <span class="literal">false</span>,</div><div class="line">    <span class="string">"lucene_version"</span> : <span class="string">"7.2.1"</span>,</div><div class="line">    <span class="string">"minimum_wire_compatibility_version"</span> : <span class="string">"5.6.0"</span>,</div><div class="line">    <span class="string">"minimum_index_compatibility_version"</span> : <span class="string">"5.0.0"</span></div><div class="line">  &#125;,</div><div class="line">  <span class="string">"tagline"</span> : <span class="string">"You Know, for Search"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p><strong>👏 짝짝짝! 이제 우리는 엘라스틱서치를 경험해볼 모든 준비가 끝났어요!👏</strong></p>
-<h2 id="ElasticSearch-사용해보기"><a href="#ElasticSearch-사용해보기" class="headerlink" title="ElasticSearch 사용해보기"></a>ElasticSearch 사용해보기</h2><p>앞서 엘라스틱서치는 RESTful API 형태로 실행된다고 했어요. 그렇다면 기본적인 CRUD 작업은 다 하면서, 빠른 데이터 검색과 분석을 제공하는게 핵심이라고 할 수 있겠네요. </p>
-<p>엘라스틱서치에서 기본적으로 제공하는 핵심 API는 다음과 같았어요. </p>
-<ul>
-<li><strong>Index API</strong></li>
-<li><strong>Get API</strong></li>
-<li><strong>Delete API</strong></li>
-<li><strong>Update API</strong></li>
-</ul>
-<h2 id="ElasticStack-더-알아보기"><a href="#ElasticStack-더-알아보기" class="headerlink" title="ElasticStack ( 더 알아보기 )"></a>ElasticStack ( 더 알아보기 )</h2>
+<p><strong>👏 짝짝짝! 이제 우리는 엘라스틱서치를 경험해볼 모든 준비가 끝났어요!👏</strong><br>다음 글은 엘라스틱서치를 직접 사용해보는 것을 바탕으로 작성해보겠습니다.</p>
+
     </div>
     <div class="ui divider blog-post-end-line">
     </div>
